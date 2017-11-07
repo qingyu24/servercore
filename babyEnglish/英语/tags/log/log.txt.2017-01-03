@@ -1,0 +1,785 @@
+0 2017-01-03 16:30:02 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "false"
+195 2017-01-03 16:30:03 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (0,'2017-01-03 16:30:02',0,'java.lang.NumberFormatException: For input string: "false"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+core.RootConfig.Init(RootConfig.java:103)
+logic.MyRoot.main(MyRoot.java:67)
+')
+0 2017-01-03 16:34:47 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "false"
+6 2017-01-03 16:34:47 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (0,'2017-01-03 16:34:47',0,'java.lang.NumberFormatException: For input string: "false"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+core.RootConfig.Init(RootConfig.java:103)
+logic.MyRoot.main(MyRoot.java:67)
+')
+0 2017-01-03 16:38:16 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "false"
+12 2017-01-03 16:38:16 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (0,'2017-01-03 16:38:16',0,'java.lang.NumberFormatException: For input string: "false"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+core.RootConfig.Init(RootConfig.java:103)
+logic.MyRoot.main(MyRoot.java:67)
+')
+0 2017-01-03 16:40:36 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "false"
+6 2017-01-03 16:40:36 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (0,'2017-01-03 16:40:36',0,'java.lang.NumberFormatException: For input string: "false"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+core.RootConfig.Init(RootConfig.java:103)
+logic.MyRoot.main(MyRoot.java:67)
+')
+0 2017-01-03 16:43:38 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+9490 2017-01-03 16:43:48 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+9714 2017-01-03 16:43:48 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+9755 2017-01-03 16:43:48 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+9760 2017-01-03 16:43:48 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 16:43:48',0,'java.lang.NumberFormatException: For input string: "Value"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:46)
+logic.MyRoot.main(MyRoot.java:81)
+')
+9823 2017-01-03 16:43:48 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+9823 2017-01-03 16:43:48 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 16:43:48',0,'java.lang.NumberFormatException: For input string: "Value"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:47)
+logic.MyRoot.main(MyRoot.java:81)
+')
+9825 2017-01-03 16:43:48 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+9864 2017-01-03 16:43:48 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+13663 2017-01-03 16:43:52 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+13746 2017-01-03 16:43:52 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+13780 2017-01-03 16:43:52 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+13780 2017-01-03 16:43:52 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 16:43:52',0,'java.lang.NumberFormatException: For input string: "Value"','sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+sun.misc.FloatingDecimal.parseFloat(Unknown Source)
+java.lang.Float.parseFloat(Unknown Source)
+utility.Str.GetFloat(Str.java:65)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:218)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:50)
+logic.MyRoot.main(MyRoot.java:81)
+')
+14093 2017-01-03 16:43:52 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@159f197 [ID:0] NextRunTime[1483433033137] Run[logic.module.login.Login@78aab498] SpaceTime[200]]
+14154 2017-01-03 16:43:52 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+14277 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+14278 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+14278 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+14279 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+14279 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+14280 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+14280 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+14280 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+14281 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+14281 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+14282 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+14282 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+14285 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+14285 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+14285 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+14286 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+14287 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,1][CharacterImpl,GetCharList]
+14289 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,2][CharacterImpl,GetCharInfo]
+14289 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+14291 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,3][CharacterImpl,GetMercenary]
+14291 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,5][CharacterImpl,GetCharAttr]
+14292 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,7][CharacterImpl,GetAllAttr]
+14292 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,6][CharacterImpl,SelectGenius]
+14294 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,8][CharacterImpl,GetOthersInfo]
+14295 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[5,9][CharacterImpl,ChuanCheng]
+14295 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+14295 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+14295 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+14296 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+14297 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,9][ItemImpl,Show]
+14298 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,13][ItemImpl,GetData]
+14298 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,0][ItemImpl,Move]
+14299 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,1][ItemImpl,Drop]
+14299 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,3][ItemImpl,Equip]
+14299 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,4][ItemImpl,Unequip]
+14300 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,17][ItemImpl,DebrisCompound]
+14300 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,5][ItemImpl,Tidy]
+14300 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,6][ItemImpl,Buy]
+14301 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,7][ItemImpl,Sell]
+14301 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,8][ItemImpl,Redeem]
+14301 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,10][ItemImpl,Store]
+14302 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,11][ItemImpl,TakeOut]
+14302 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,12][ItemImpl,Strengthen]
+14302 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,14][ItemImpl,AddBagSlot]
+14303 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,15][ItemImpl,AddStoreSlot]
+14303 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,16][ItemImpl,StrengthenCD]
+14304 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[3,2][ItemImpl,Use]
+14304 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+14304 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+14304 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+14305 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+14310 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[1,1][CityImpl,SyncPos]
+14310 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[1,0][CityImpl,EnterCity]
+14311 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[1,2][CityImpl,ChangeCity]
+14311 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[1,99][CityImpl,EnterCityFPS]
+14311 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #添加[1,3][CityImpl,LeaveCity]
+14311 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+14311 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+14311 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+14312 2017-01-03 16:43:53 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.gm.GMImpl]
+0 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+3 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+194 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+233 2017-01-03 16:45:56 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+238 2017-01-03 16:45:56 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 16:45:56',0,'java.lang.NumberFormatException: For input string: "Value"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:46)
+logic.MyRoot.main(MyRoot.java:81)
+')
+281 2017-01-03 16:45:56 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+282 2017-01-03 16:45:56 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 16:45:56',0,'java.lang.NumberFormatException: For input string: "Value"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:47)
+logic.MyRoot.main(MyRoot.java:81)
+')
+284 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+324 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+326 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+356 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+406 2017-01-03 16:45:56 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+407 2017-01-03 16:45:56 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 16:45:56',0,'java.lang.NumberFormatException: For input string: "Value"','sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+sun.misc.FloatingDecimal.parseFloat(Unknown Source)
+java.lang.Float.parseFloat(Unknown Source)
+utility.Str.GetFloat(Str.java:65)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:218)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:50)
+logic.MyRoot.main(MyRoot.java:81)
+')
+435 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@159f197 [ID:0] NextRunTime[1483433157166] Run[logic.module.login.Login@78aab498] SpaceTime[200]]
+438 2017-01-03 16:45:56 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+480 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+481 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+481 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+481 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+482 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+482 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+482 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+482 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+483 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+483 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+484 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+484 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+484 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+487 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+487 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+488 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+489 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,1][CharacterImpl,GetCharList]
+490 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,2][CharacterImpl,GetCharInfo]
+491 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+492 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,3][CharacterImpl,GetMercenary]
+492 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,5][CharacterImpl,GetCharAttr]
+493 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,7][CharacterImpl,GetAllAttr]
+493 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,6][CharacterImpl,SelectGenius]
+496 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,8][CharacterImpl,GetOthersInfo]
+496 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[5,9][CharacterImpl,ChuanCheng]
+496 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+496 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+496 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+497 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+498 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,9][ItemImpl,Show]
+499 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,10][ItemImpl,Store]
+499 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,6][ItemImpl,Buy]
+500 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,0][ItemImpl,Move]
+501 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,1][ItemImpl,Drop]
+501 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,3][ItemImpl,Equip]
+501 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,4][ItemImpl,Unequip]
+502 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,17][ItemImpl,DebrisCompound]
+502 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,5][ItemImpl,Tidy]
+502 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,13][ItemImpl,GetData]
+503 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,7][ItemImpl,Sell]
+503 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,8][ItemImpl,Redeem]
+503 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,11][ItemImpl,TakeOut]
+503 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,12][ItemImpl,Strengthen]
+504 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,14][ItemImpl,AddBagSlot]
+504 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,15][ItemImpl,AddStoreSlot]
+505 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,16][ItemImpl,StrengthenCD]
+505 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[3,2][ItemImpl,Use]
+505 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+505 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+505 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+506 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+508 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[1,0][CityImpl,EnterCity]
+509 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[1,1][CityImpl,SyncPos]
+510 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[1,2][CityImpl,ChangeCity]
+510 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[1,3][CityImpl,LeaveCity]
+510 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #添加[1,99][CityImpl,EnterCityFPS]
+510 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+510 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+511 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+512 2017-01-03 16:45:57 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.gm.GMImpl]
+0 2017-01-03 17:01:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+4 2017-01-03 17:01:14 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+206 2017-01-03 17:01:14 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+255 2017-01-03 17:01:14 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+259 2017-01-03 17:01:14 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 17:01:14',0,'java.lang.NumberFormatException: For input string: "Value"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:46)
+logic.MyRoot.main(MyRoot.java:81)
+')
+336 2017-01-03 17:01:14 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+336 2017-01-03 17:01:14 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 17:01:14',0,'java.lang.NumberFormatException: For input string: "Value"','java.lang.NumberFormatException.forInputString(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+java.lang.Integer.parseInt(Unknown Source)
+utility.Str.GetInt(Str.java:47)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:210)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:47)
+logic.MyRoot.main(MyRoot.java:81)
+')
+339 2017-01-03 17:01:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+390 2017-01-03 17:01:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+392 2017-01-03 17:01:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+426 2017-01-03 17:01:14 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+456 2017-01-03 17:01:14 [GlobalLog] SYSTEM_ERROR #java.lang.NumberFormatException: For input string: "Value"
+456 2017-01-03 17:01:14 [GlobalLog] SQL INSERT INTO ExceptionLog (ServerID,Tm,RoleID,ExceptionName,Detail) VALUES (18,'2017-01-03 17:01:14',0,'java.lang.NumberFormatException: For input string: "Value"','sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+sun.misc.FloatingDecimal.parseFloat(Unknown Source)
+java.lang.Float.parseFloat(Unknown Source)
+utility.Str.GetFloat(Str.java:65)
+utility.ExcelIniReader._SerializeData(ExcelIniReader.java:218)
+utility.ExcelIniReader._FillDatas(ExcelIniReader.java:138)
+utility.ExcelIniReader.Read(ExcelIniReader.java:71)
+manager.ConfigManager.parseXls(ConfigManager.java:62)
+manager.ConfigManager.initAll(ConfigManager.java:50)
+logic.MyRoot.main(MyRoot.java:81)
+')
+473 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@159f197 [ID:0] NextRunTime[1483434075208] Run[logic.module.login.Login@78aab498] SpaceTime[200]]
+476 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+520 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+521 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+522 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+522 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+523 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+524 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+524 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+524 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+525 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+525 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+526 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+526 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+528 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+529 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+529 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+546 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+547 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,1][CharacterImpl,GetCharList]
+549 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,2][CharacterImpl,GetCharInfo]
+550 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+550 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,3][CharacterImpl,GetMercenary]
+551 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,5][CharacterImpl,GetCharAttr]
+551 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,7][CharacterImpl,GetAllAttr]
+552 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,6][CharacterImpl,SelectGenius]
+553 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,8][CharacterImpl,GetOthersInfo]
+554 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[5,9][CharacterImpl,ChuanCheng]
+554 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+554 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+554 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+555 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+556 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,9][ItemImpl,Show]
+557 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,2][ItemImpl,Use]
+557 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,13][ItemImpl,GetData]
+558 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,0][ItemImpl,Move]
+558 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,1][ItemImpl,Drop]
+558 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,3][ItemImpl,Equip]
+558 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,4][ItemImpl,Unequip]
+559 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,17][ItemImpl,DebrisCompound]
+559 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,5][ItemImpl,Tidy]
+559 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,6][ItemImpl,Buy]
+559 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,7][ItemImpl,Sell]
+560 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,8][ItemImpl,Redeem]
+560 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,10][ItemImpl,Store]
+560 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,11][ItemImpl,TakeOut]
+561 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,12][ItemImpl,Strengthen]
+561 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,14][ItemImpl,AddBagSlot]
+561 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,15][ItemImpl,AddStoreSlot]
+561 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[3,16][ItemImpl,StrengthenCD]
+561 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+561 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+562 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+562 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+565 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[1,99][CityImpl,EnterCityFPS]
+565 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[1,0][CityImpl,EnterCity]
+567 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[1,1][CityImpl,SyncPos]
+567 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[1,2][CityImpl,ChangeCity]
+567 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[1,3][CityImpl,LeaveCity]
+567 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+567 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+568 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+568 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.hero.HeroImpl]
+569 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[6,0][HeroImpl,Get]
+569 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[6,4][HeroImpl,Strong]
+569 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[6,3][HeroImpl,ChangePos]
+570 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[6,5][HeroImpl,UpStar]
+570 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[6,2][HeroImpl,Del]
+570 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[6,6][HeroImpl,Clear]
+570 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[6,1][HeroImpl,Add]
+570 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.hero.HeroImpl]
+570 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.hero.HeroImpl]
+570 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.hero.HeroImpl]
+571 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.shop.ShopImpl]
+572 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[7,1][ShopImpl,RequireBuyGoods]
+572 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[7,0][ShopImpl,RequireAllData]
+572 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.shop.ShopImpl]
+572 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.shop.ShopImpl]
+572 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.shop.ShopImpl]
+573 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.sign.SignImpl]
+573 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[10,1][SignImpl,Sign]
+574 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[10,2][SignImpl,GetToday]
+574 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[10,0][SignImpl,GetLastDay]
+574 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.sign.SignImpl]
+574 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.sign.SignImpl]
+574 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.sign.SignImpl]
+575 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.extract.ExtractImpl]
+575 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[11,2][ExtractImpl,SimpleExtract]
+576 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[11,1][ExtractImpl,FriendlyExtract]
+576 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[11,0][ExtractImpl,FreeExtract]
+576 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[11,3][ExtractImpl,TenExtract]
+576 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.extract.ExtractImpl]
+576 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.extract.ExtractImpl]
+576 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.extract.ExtractImpl]
+589 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.gm.GMImpl]
+618 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,71][GMImpl,CharLevelUp]
+621 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,70][GMImpl,LevelUp]
+622 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,72][GMImpl,ExpUp]
+622 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,73][GMImpl,CharExpUp]
+622 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,51][GMImpl,Kick]
+622 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,1][GMImpl,GetOnlineNum]
+623 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,90][GMImpl,Gag]
+623 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,92][GMImpl,Gag1]
+623 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,110][GMImpl,BroadCast]
+623 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,93][GMImpl,Forbid1]
+624 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,76][GMImpl,Item]
+625 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,77][GMImpl,Item1]
+625 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,85][GMImpl,ItemList]
+626 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,78][GMImpl,MakeUpOnlineUser]
+636 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,111][GMImpl,PlayerMoney]
+637 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,112][GMImpl,PlayerMoney1]
+637 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,113][GMImpl,PlayerPayRecord]
+637 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,30][GMImpl,WebCreate]
+638 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,31][GMImpl,GetAccessToken]
+638 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,32][GMImpl,SetOrderResult]
+638 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,24][GMImpl,MakeGuide]
+639 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,105][GMImpl,OnopenUserModule]
+639 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,80][GMImpl,FinishTask]
+639 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,114][GMImpl,AddSpirit]
+639 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,79][GMImpl,MakeUpOnlineUser1]
+640 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,5][GMImpl,UpdateScreenPlayerThreshold]
+640 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,104][GMImpl,PromotionConfigReload]
+641 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,115][GMImpl,AddSkillProficientcy]
+641 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,116][GMImpl,FinishAllTutorial]
+641 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,33][GMImpl,CacheAccessToken]
+641 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加[12,91][GMImpl,Forbid]
+641 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.gm.GMImpl]
+796 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@16d04d3d [ID:1] NextRunTime[1483434076332] Run[core.ex.GatherInfo@49ec71f8] SpaceTime[1000]]
+1463 2017-01-03 17:01:15 [GlobalLog] SYSTEM_INFO #打开端口[1102]成功
+1464 2017-01-03 17:01:16 [GlobalLog] SYSTEM_INFO #打开端口[11102]成功
+1480 2017-01-03 17:01:16 [GlobalLog] SYSTEM_INFO #正在打开端口[11102]
+1480 2017-01-03 17:01:16 [GlobalLog] SYSTEM_INFO #正在打开端口[1102]
+63429 2017-01-03 17:02:17 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+63429 2017-01-03 17:02:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年01月03日 17时02分17秒
+63430 2017-01-03 17:02:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1102] 2017年01月03日 17时02分17秒
+63430 2017-01-03 17:02:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年01月03日 17时02分17秒
+63431 2017-01-03 17:02:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1102] 2017年01月03日 17时02分17秒
+63431 2017-01-03 17:02:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年01月03日 17时02分17秒
+63431 2017-01-03 17:02:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,NET]] 2017年01月03日 17时02分17秒
+65431 2017-01-03 17:02:19 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年01月03日 17时02分19秒
+65431 2017-01-03 17:02:19 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@24013317 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年01月03日 17时02分19秒
+65931 2017-01-03 17:02:20 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@24013317 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年01月03日 17时02分20秒
+65931 2017-01-03 17:02:20 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年01月03日 17时02分20秒
+65931 2017-01-03 17:02:20 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年01月03日 17时02分20秒
+65953 2017-01-03 17:02:20 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年01月03日 17时02分20秒
+66954 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年01月03日 17时02分21秒
+66955 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年01月03日 17时02分21秒
+66955 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,LOGIC]] 2017年01月03日 17时02分21秒
+66957 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年01月03日 17时02分21秒
+66957 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年01月03日 17时02分21秒
+66958 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年01月03日 17时02分21秒
+66958 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,SQL]] 2017年01月03日 17时02分21秒
+66964 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年01月03日 17时02分21秒
+66964 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年01月03日 17时02分21秒
+67067 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年01月03日 17时02分21秒
+67067 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,SQLLOG]] 2017年01月03日 17时02分21秒
+67068 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年01月03日 17时02分21秒
+67095 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年01月03日 17时02分21秒
+67195 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年01月03日 17时02分21秒
+67196 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,THREADTASK]] 2017年01月03日 17时02分21秒
+67198 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年01月03日 17时02分21秒
+67199 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年01月03日 17时02分21秒
+67199 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11102] 2017年01月03日 17时02分21秒
+67200 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11102] 2017年01月03日 17时02分21秒
+67201 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年01月03日 17时02分21秒
+67201 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,GMNET]] 2017年01月03日 17时02分21秒
+67203 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年01月03日 17时02分21秒
+67204 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年01月03日 17时02分21秒
+67204 2017-01-03 17:02:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年01月03日 17时02分21秒
+68204 2017-01-03 17:02:22 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年01月03日 17时02分22秒
+0 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+5 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+202 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+259 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+289 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+309 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+311 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+345 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+347 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+384 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+401 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@29176cc1 [ID:0] NextRunTime[1483434501113] Run[logic.module.login.Login@2f177a4b] SpaceTime[200]]
+405 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+446 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+446 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+447 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+447 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+448 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+448 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+448 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+448 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+449 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+449 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+450 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+450 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+453 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+453 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+454 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+454 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+455 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,1][CharacterImpl,GetCharList]
+457 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,2][CharacterImpl,GetCharInfo]
+457 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+458 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,3][CharacterImpl,GetMercenary]
+458 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,5][CharacterImpl,GetCharAttr]
+458 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,7][CharacterImpl,GetAllAttr]
+459 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,6][CharacterImpl,SelectGenius]
+460 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,8][CharacterImpl,GetOthersInfo]
+461 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[5,9][CharacterImpl,ChuanCheng]
+461 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+461 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+461 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+462 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+463 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,9][ItemImpl,Show]
+464 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,2][ItemImpl,Use]
+464 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,13][ItemImpl,GetData]
+465 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,0][ItemImpl,Move]
+465 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,1][ItemImpl,Drop]
+466 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,3][ItemImpl,Equip]
+466 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,4][ItemImpl,Unequip]
+466 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,17][ItemImpl,DebrisCompound]
+466 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,5][ItemImpl,Tidy]
+467 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,6][ItemImpl,Buy]
+467 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,7][ItemImpl,Sell]
+468 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,8][ItemImpl,Redeem]
+469 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,10][ItemImpl,Store]
+469 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,11][ItemImpl,TakeOut]
+469 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,12][ItemImpl,Strengthen]
+469 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,14][ItemImpl,AddBagSlot]
+470 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,15][ItemImpl,AddStoreSlot]
+470 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[3,16][ItemImpl,StrengthenCD]
+470 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+470 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+470 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+472 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+474 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[1,99][CityImpl,EnterCityFPS]
+475 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[1,3][CityImpl,LeaveCity]
+475 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[1,0][CityImpl,EnterCity]
+476 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[1,1][CityImpl,SyncPos]
+477 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[1,2][CityImpl,ChangeCity]
+477 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+477 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+477 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+478 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.hero.HeroImpl]
+478 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[6,0][HeroImpl,Get]
+479 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[6,4][HeroImpl,Strong]
+479 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[6,1][HeroImpl,Add]
+479 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[6,6][HeroImpl,Clear]
+479 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[6,5][HeroImpl,UpStar]
+479 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[6,3][HeroImpl,ChangePos]
+480 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[6,2][HeroImpl,Del]
+480 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.hero.HeroImpl]
+480 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.hero.HeroImpl]
+480 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.hero.HeroImpl]
+481 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.shop.ShopImpl]
+481 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[7,1][ShopImpl,RequireBuyGoods]
+482 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[7,0][ShopImpl,RequireAllData]
+482 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.shop.ShopImpl]
+482 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.shop.ShopImpl]
+482 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.shop.ShopImpl]
+483 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.sign.SignImpl]
+483 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[10,1][SignImpl,Sign]
+484 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[10,2][SignImpl,GetToday]
+484 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[10,0][SignImpl,GetLastDay]
+484 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.sign.SignImpl]
+484 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.sign.SignImpl]
+484 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.sign.SignImpl]
+485 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.extract.ExtractImpl]
+485 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[11,2][ExtractImpl,SimpleExtract]
+486 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[11,1][ExtractImpl,FriendlyExtract]
+486 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[11,0][ExtractImpl,FreeExtract]
+486 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #添加[11,3][ExtractImpl,TenExtract]
+486 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.extract.ExtractImpl]
+486 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.extract.ExtractImpl]
+486 2017-01-03 17:08:20 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.extract.ExtractImpl]
+488 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.gm.GMImpl]
+494 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,79][GMImpl,MakeUpOnlineUser1]
+494 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,5][GMImpl,UpdateScreenPlayerThreshold]
+494 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,104][GMImpl,PromotionConfigReload]
+496 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,115][GMImpl,AddSkillProficientcy]
+496 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,116][GMImpl,FinishAllTutorial]
+497 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,33][GMImpl,CacheAccessToken]
+497 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,91][GMImpl,Forbid]
+497 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,71][GMImpl,CharLevelUp]
+498 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,70][GMImpl,LevelUp]
+498 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,72][GMImpl,ExpUp]
+498 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,73][GMImpl,CharExpUp]
+498 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,51][GMImpl,Kick]
+499 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,1][GMImpl,GetOnlineNum]
+499 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,90][GMImpl,Gag]
+499 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,92][GMImpl,Gag1]
+500 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,110][GMImpl,BroadCast]
+500 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,93][GMImpl,Forbid1]
+501 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,76][GMImpl,Item]
+501 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,77][GMImpl,Item1]
+502 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,85][GMImpl,ItemList]
+502 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,78][GMImpl,MakeUpOnlineUser]
+505 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,111][GMImpl,PlayerMoney]
+505 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,112][GMImpl,PlayerMoney1]
+506 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,113][GMImpl,PlayerPayRecord]
+506 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,30][GMImpl,WebCreate]
+506 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,31][GMImpl,GetAccessToken]
+506 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,32][GMImpl,SetOrderResult]
+507 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,24][GMImpl,MakeGuide]
+507 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,105][GMImpl,OnopenUserModule]
+508 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,80][GMImpl,FinishTask]
+508 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加[12,114][GMImpl,AddSpirit]
+508 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.gm.GMImpl]
+514 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@4fb61f4a [ID:1] NextRunTime[1483434502025] Run[core.ex.GatherInfo@4fb0f2b9] SpaceTime[1000]]
+979 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #打开端口[1102]成功
+989 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #打开端口[11102]成功
+1002 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #正在打开端口[11102]
+1003 2017-01-03 17:08:21 [GlobalLog] SYSTEM_INFO #正在打开端口[1102]
+9413 2017-01-03 17:08:29 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+9413 2017-01-03 17:08:29 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年01月03日 17时08分29秒
+9413 2017-01-03 17:08:29 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1102] 2017年01月03日 17时08分29秒
+9414 2017-01-03 17:08:29 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年01月03日 17时08分29秒
+9414 2017-01-03 17:08:29 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1102] 2017年01月03日 17时08分29秒
+9415 2017-01-03 17:08:29 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年01月03日 17时08分29秒
+9415 2017-01-03 17:08:29 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,NET]] 2017年01月03日 17时08分29秒
+11414 2017-01-03 17:08:31 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年01月03日 17时08分31秒
+11415 2017-01-03 17:08:31 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@4ee18c21 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年01月03日 17时08分31秒
+11415 2017-01-03 17:08:31 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年01月03日 17时08分31秒
+11415 2017-01-03 17:08:31 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年01月03日 17时08分31秒
+11417 2017-01-03 17:08:31 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年01月03日 17时08分31秒
+12417 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年01月03日 17时08分32秒
+12418 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年01月03日 17时08分32秒
+12418 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,LOGIC]] 2017年01月03日 17时08分32秒
+12418 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年01月03日 17时08分32秒
+12419 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年01月03日 17时08分32秒
+12420 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年01月03日 17时08分32秒
+12420 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,SQL]] 2017年01月03日 17时08分32秒
+12420 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年01月03日 17时08分32秒
+12421 2017-01-03 17:08:32 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年01月03日 17时08分32秒
+12581 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年01月03日 17时08分33秒
+12581 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,SQLLOG]] 2017年01月03日 17时08分33秒
+12581 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年01月03日 17时08分33秒
+12584 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年01月03日 17时08分33秒
+12684 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年01月03日 17时08分33秒
+12684 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,THREADTASK]] 2017年01月03日 17时08分33秒
+12685 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年01月03日 17时08分33秒
+12685 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年01月03日 17时08分33秒
+12685 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11102] 2017年01月03日 17时08分33秒
+12686 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11102] 2017年01月03日 17时08分33秒
+12686 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年01月03日 17时08分33秒
+12686 2017-01-03 17:08:33 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,GMNET]] 2017年01月03日 17时08分33秒
+42688 2017-01-03 17:09:03 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年01月03日 17时09分03秒
+42688 2017-01-03 17:09:03 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年01月03日 17时09分03秒
+42689 2017-01-03 17:09:03 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年01月03日 17时09分03秒
+43688 2017-01-03 17:09:04 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年01月03日 17时09分04秒
+0 2017-01-03 17:15:16 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+4 2017-01-03 17:15:16 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+210 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true]
+254 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+280 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+309 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+311 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+346 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+347 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+385 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+402 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@29176cc1 [ID:0] NextRunTime[1483434917537] Run[logic.module.login.Login@2f177a4b] SpaceTime[200]]
+407 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+448 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+450 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+451 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+452 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+453 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+453 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+454 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+456 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+457 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+459 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+461 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+462 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+462 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+465 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+465 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+466 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+467 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,1][CharacterImpl,GetCharList]
+469 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,2][CharacterImpl,GetCharInfo]
+469 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+470 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,3][CharacterImpl,GetMercenary]
+470 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,5][CharacterImpl,GetCharAttr]
+471 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,7][CharacterImpl,GetAllAttr]
+471 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,6][CharacterImpl,SelectGenius]
+472 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,9][CharacterImpl,ChuanCheng]
+473 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[5,8][CharacterImpl,GetOthersInfo]
+473 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+473 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+473 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+475 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+476 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,9][ItemImpl,Show]
+477 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,0][ItemImpl,Move]
+477 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,13][ItemImpl,GetData]
+478 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,1][ItemImpl,Drop]
+478 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,3][ItemImpl,Equip]
+478 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,4][ItemImpl,Unequip]
+479 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,17][ItemImpl,DebrisCompound]
+479 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,5][ItemImpl,Tidy]
+479 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,6][ItemImpl,Buy]
+480 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,7][ItemImpl,Sell]
+480 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,8][ItemImpl,Redeem]
+480 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,10][ItemImpl,Store]
+480 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,11][ItemImpl,TakeOut]
+481 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,12][ItemImpl,Strengthen]
+481 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,14][ItemImpl,AddBagSlot]
+481 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,15][ItemImpl,AddStoreSlot]
+482 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,16][ItemImpl,StrengthenCD]
+482 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[3,2][ItemImpl,Use]
+482 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+482 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.item.ItemImpl]
+482 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.item.ItemImpl]
+483 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+485 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[1,0][CityImpl,EnterCity]
+487 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[1,1][CityImpl,SyncPos]
+487 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[1,2][CityImpl,ChangeCity]
+487 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[1,3][CityImpl,LeaveCity]
+487 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[1,99][CityImpl,EnterCityFPS]
+488 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+488 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.city.CityImpl]
+488 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.city.CityImpl]
+488 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.hero.HeroImpl]
+489 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[6,0][HeroImpl,Get]
+489 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[6,4][HeroImpl,Strong]
+490 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[6,2][HeroImpl,Del]
+490 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[6,3][HeroImpl,ChangePos]
+490 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[6,5][HeroImpl,UpStar]
+490 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[6,6][HeroImpl,Clear]
+490 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[6,1][HeroImpl,Add]
+491 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.hero.HeroImpl]
+491 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.hero.HeroImpl]
+491 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.hero.HeroImpl]
+491 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.shop.ShopImpl]
+492 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[7,1][ShopImpl,RequireBuyGoods]
+492 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[7,0][ShopImpl,RequireAllData]
+492 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.shop.ShopImpl]
+493 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.shop.ShopImpl]
+493 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.shop.ShopImpl]
+494 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.sign.SignImpl]
+494 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[10,2][SignImpl,GetToday]
+495 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[10,1][SignImpl,Sign]
+495 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[10,0][SignImpl,GetLastDay]
+495 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.sign.SignImpl]
+495 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.sign.SignImpl]
+495 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.sign.SignImpl]
+496 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.extract.ExtractImpl]
+496 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[11,2][ExtractImpl,SimpleExtract]
+497 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[11,1][ExtractImpl,FriendlyExtract]
+497 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[11,0][ExtractImpl,FreeExtract]
+497 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[11,3][ExtractImpl,TenExtract]
+497 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.extract.ExtractImpl]
+497 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.extract.ExtractImpl]
+497 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.extract.ExtractImpl]
+499 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.gm.GMImpl]
+502 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,71][GMImpl,CharLevelUp]
+504 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,70][GMImpl,LevelUp]
+504 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,72][GMImpl,ExpUp]
+505 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,73][GMImpl,CharExpUp]
+505 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,51][GMImpl,Kick]
+506 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,1][GMImpl,GetOnlineNum]
+508 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,90][GMImpl,Gag]
+509 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,92][GMImpl,Gag1]
+509 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,110][GMImpl,BroadCast]
+509 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,93][GMImpl,Forbid1]
+510 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,76][GMImpl,Item]
+510 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,77][GMImpl,Item1]
+511 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,85][GMImpl,ItemList]
+511 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,78][GMImpl,MakeUpOnlineUser]
+515 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,111][GMImpl,PlayerMoney]
+516 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,112][GMImpl,PlayerMoney1]
+517 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,113][GMImpl,PlayerPayRecord]
+517 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,30][GMImpl,WebCreate]
+517 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,31][GMImpl,GetAccessToken]
+518 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,32][GMImpl,SetOrderResult]
+518 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,24][GMImpl,MakeGuide]
+518 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,105][GMImpl,OnopenUserModule]
+519 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,80][GMImpl,FinishTask]
+519 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,114][GMImpl,AddSpirit]
+519 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,79][GMImpl,MakeUpOnlineUser1]
+519 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,5][GMImpl,UpdateScreenPlayerThreshold]
+520 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,104][GMImpl,PromotionConfigReload]
+520 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,115][GMImpl,AddSkillProficientcy]
+520 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,116][GMImpl,FinishAllTutorial]
+521 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,33][GMImpl,CacheAccessToken]
+521 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加[12,91][GMImpl,Forbid]
+521 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.gm.GMImpl]
+527 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@4fb61f4a [ID:1] NextRunTime[1483434918462] Run[core.ex.GatherInfo@4fb0f2b9] SpaceTime[1000]]
+979 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #打开端口[1102]成功
+979 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #打开端口[11102]成功
+999 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #正在打开端口[11102]
+1000 2017-01-03 17:15:17 [GlobalLog] SYSTEM_INFO #正在打开端口[1102]

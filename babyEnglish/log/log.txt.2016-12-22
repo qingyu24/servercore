@@ -1,0 +1,87 @@
+0 2016-12-22 11:02:26 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+278 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+432 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8]
+821 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/wan?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8]
+824 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+892 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+894 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+1013 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+1046 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+1116 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+1117 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+1215 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/HeroConfig.xls]
+1216 2016-12-22 11:02:27 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+1300 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+1507 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@45018215 [ID:0] NextRunTime[1482375748437] Run[logic.module.login.Login@65d6b83b] SpaceTime[200]]
+1693 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1861 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+1861 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+1862 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+1862 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1864 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1864 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+1864 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+1864 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+1865 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+1865 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+1866 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+1866 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+1870 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+1870 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+1871 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1904 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1905 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,0][CharacterImpl,RequestBaseInfo]
+1905 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,1][CharacterImpl,GetCharList]
+1908 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,2][CharacterImpl,GetCharInfo]
+1908 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,3][CharacterImpl,GetMercenary]
+1909 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,5][CharacterImpl,GetCharAttr]
+1909 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,7][CharacterImpl,GetAllAttr]
+1910 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,6][CharacterImpl,SelectGenius]
+1913 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,8][CharacterImpl,GetOthersInfo]
+1913 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加[8,9][CharacterImpl,ChuanCheng]
+1913 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1913 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1913 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1995 2016-12-22 11:02:28 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@384ad17b [ID:1] NextRunTime[1482375749725] Run[core.ex.GatherInfo@61862a7f] SpaceTime[1000]]
+4668 2016-12-22 11:02:31 [GlobalLog] SYSTEM_INFO #打开端口[1102]成功
+4669 2016-12-22 11:02:31 [GlobalLog] SYSTEM_INFO #打开端口[11102]成功
+4842 2016-12-22 11:02:31 [GlobalLog] SYSTEM_INFO #正在打开端口[11102]
+4845 2016-12-22 11:02:31 [GlobalLog] SYSTEM_INFO #正在打开端口[1102]
+31937 2016-12-22 11:02:58 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+31937 2016-12-22 11:02:58 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2016年12月22日 11时02分58秒
+31938 2016-12-22 11:02:58 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1102] 2016年12月22日 11时02分58秒
+31940 2016-12-22 11:02:58 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1102] 2016年12月22日 11时02分58秒
+31940 2016-12-22 11:02:58 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2016年12月22日 11时02分58秒
+31940 2016-12-22 11:02:58 [GlobalLog] SYSTEM_INFO #线程正常停止[[21,NET]] 2016年12月22日 11时02分58秒
+31947 2016-12-22 11:02:58 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2016年12月22日 11时02分58秒
+33947 2016-12-22 11:03:00 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2016年12月22日 11时03分00秒
+33948 2016-12-22 11:03:00 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@e8ac2ad UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2016年12月22日 11时03分00秒
+34448 2016-12-22 11:03:01 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@e8ac2ad UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2016年12月22日 11时03分01秒
+34448 2016-12-22 11:03:01 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2016年12月22日 11时03分01秒
+34449 2016-12-22 11:03:01 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2016年12月22日 11时03分01秒
+34485 2016-12-22 11:03:01 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2016年12月22日 11时03分01秒
+35486 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2016年12月22日 11时03分02秒
+35487 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2016年12月22日 11时03分02秒
+35487 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,LOGIC]] 2016年12月22日 11时03分02秒
+35487 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2016年12月22日 11时03分02秒
+35488 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2016年12月22日 11时03分02秒
+35490 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2016年12月22日 11时03分02秒
+35491 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,SQL]] 2016年12月22日 11时03分02秒
+35491 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2016年12月22日 11时03分02秒
+35492 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2016年12月22日 11时03分02秒
+35690 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2016年12月22日 11时03分02秒
+35690 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,SQLLOG]] 2016年12月22日 11时03分02秒
+35691 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2016年12月22日 11时03分02秒
+35696 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2016年12月22日 11时03分02秒
+35796 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2016年12月22日 11时03分02秒
+35798 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,THREADTASK]] 2016年12月22日 11时03分02秒
+35799 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2016年12月22日 11时03分02秒
+35800 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2016年12月22日 11时03分02秒
+35800 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11102] 2016年12月22日 11时03分02秒
+35804 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11102] 2016年12月22日 11时03分02秒
+35805 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2016年12月22日 11时03分02秒
+35805 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,GMNET]] 2016年12月22日 11时03分02秒
+35814 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2016年12月22日 11时03分02秒
+35814 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2016年12月22日 11时03分02秒
+35815 2016-12-22 11:03:02 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2016年12月22日 11时03分02秒
+36814 2016-12-22 11:03:03 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2016年12月22日 11时03分03秒

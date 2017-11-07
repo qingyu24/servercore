@@ -1,0 +1,683 @@
+0 2017-04-14 10:34:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+394 2017-04-14 10:34:39 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+1159 2017-04-14 10:34:40 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+1406 2017-04-14 10:34:40 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+1501 2017-04-14 10:34:40 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+1591 2017-04-14 10:34:40 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+1640 2017-04-14 10:34:41 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+1819 2017-04-14 10:34:41 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+2324 2017-04-14 10:34:41 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@11a9e7c8 [ID:0] NextRunTime[1492137281927] Run[logic.module.login.Login@3901d134] SpaceTime[200]]
+2376 2017-04-14 10:34:41 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+2663 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+2665 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+2666 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,3][Login,ResetEnter]
+2666 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+2667 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+2668 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+2668 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+2669 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+2669 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+2669 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+2670 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+2670 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+2674 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+2674 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+2674 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+2676 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+2677 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+2677 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+2677 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+2677 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+2679 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.group.GroupImpl]
+2680 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[1,0][GroupImpl,Create]
+2680 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[1,2][GroupImpl,Delete]
+2681 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[1,1][GroupImpl,Update]
+2681 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.group.GroupImpl]
+2681 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.group.GroupImpl]
+2681 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.group.GroupImpl]
+2683 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.center.CenterImpl]
+2684 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,4][CenterImpl,RetrievePass]
+2685 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,2][CenterImpl,GetAds]
+2685 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,5][CenterImpl,FullInfo]
+2685 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,6][CenterImpl,GetIcon]
+2686 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,7][CenterImpl,ExchangeCode]
+2686 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,8][CenterImpl,ShareAward]
+2686 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,9][CenterImpl,EvalAward]
+2686 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,10][CenterImpl,LoginAward]
+2687 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,11][CenterImpl,MsgList]
+2687 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,12][CenterImpl,QueryGroup]
+2688 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,13][CenterImpl,View]
+2688 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,14][CenterImpl,ModifyPass]
+2688 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,15][CenterImpl,AboutUs]
+2689 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,17][CenterImpl,GetGroup]
+2689 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,3][CenterImpl,UnlockGate]
+2689 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加[3,18][CenterImpl,unlockSmallGate]
+2689 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.center.CenterImpl]
+2689 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.center.CenterImpl]
+2690 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.center.CenterImpl]
+2800 2017-04-14 10:34:42 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@333291e3 [ID:1] NextRunTime[1492137283204] Run[core.ex.GatherInfo@479d31f3] SpaceTime[1000]]
+6713 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@21337f7b [ID:2] NextRunTime[1492137470117] Run[logic.loader.MessageLoader@2bb3058] SpaceTime[184000]]
+7022 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@e383572: select * from bs_global]
+7022 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+7074 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #用时[6] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@61fe30: SELECT * FROM bs_globalmsg]
+7074 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+7134 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #打开端口[1103]成功
+7138 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #打开端口[11103]成功
+7385 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #正在打开端口[1103]
+7385 2017-04-14 10:34:46 [GlobalLog] SYSTEM_INFO #正在打开端口[11103]
+118369 2017-04-14 10:36:37 [UserLog1594666002] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@2d56e9f0]创建了用户[logic.MyUser@5f0cac12[,0,]]
+118528 2017-04-14 10:36:37 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[760670704] userhash[1594666002]
+119293 2017-04-14 10:36:38 [GlobalLog] INFO [0]*(Login#Register:0414,1,2017年04月14日 10时36分38秒)
+119334 2017-04-14 10:36:38 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-04-14 10:36:38',1,1,98,98,1,0)
+119478 2017-04-14 10:36:38 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:0414,1,2017年04月14日 10时36分38秒,result:true,size:1)
+119530 2017-04-14 10:36:38 [GlobalLog] SYSTEM_INFO #添加一个定时器[3][core.detail.impl.mgr.timer.TickEvent@3e02243c [ID:3] NextRunTime[1492137399233] Run[logic.PackBuffer@4670c06a] SpaceTime[300]]
+119583 2017-04-14 10:36:38 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:0414,2017年04月14日 10时36分38秒,result:)
+119654 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #[SqlMgrImpl::AddTask用时[[[:71]
+119654 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #[SqlMgrImpl::_GetRunMethodEx用时[[[:69]
+119656 2017-04-14 10:36:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:36:39',1,1,0,0,0)
+119662 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #用时[4] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4cd00731: select * from bs_user where Tel = '0414']
+119669 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+119674 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@47a20ad8: SELECT * FROM bs_user ORDER BY ROLEID DESC LIMIT 1]
+119674 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+119674 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #读取配置文件:[用[81064793292678928初始化角色生成器,下一个生成的值为:81064793292688928]
+119694 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@1763bf47: insert into bs_user(RoleID, tel, Password, isEb, GroupID) values (81064793292688928, '0414', '123', 1, 555)]
+119701 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #用时[7] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@4cd00731: select * from bs_user where Tel = '0414']
+119701 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+119702 2017-04-14 10:36:39 [UserLog1594666002] SYSTEM_INFO #logic.methodex.LoginMethod@4b210460UserMgr添加一个用户,nk[0414@1] gid[81064793292688928] netid[0] this[logic.MyUser@5f0cac12[0414,81064793292688928,0414]]
+119702 2017-04-14 10:36:39 [UserLog1594666002] SYSTEM_INFO #logic.methodex.LoginMethod@4b210460UserMgr成功添加一个用户,nk[0414@1] gid[81064793292688928] netid[0] this[logic.MyUser@5f0cac12[0414,81064793292688928,0414]]
+119743 2017-04-14 10:36:39 [UserLog1594666002] SQL INSERT INTO RegisterLog (ServerID,Tm,UserID,UserName,IP,Device,DeviceModel,Type) VALUES (18,'2017-04-14 10:36:39',81064793292688928,'0414','192.168.2.32','7b5edbb5912450cd73a3a67514364406','360 1605-A01',1)
+119787 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #用时[132] SQL:[logic.methodex.LoginMethod@4b210460]
+119995 2017-04-14 10:36:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:36:39',1,1,0,202)
+120382 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@16395236: SELECT RoleID,Tel,Mail,UserName,Password,Area,Gate,Money,LoginDays,ChargeNum,ChargeCount,IsEb,DriveInfo,CardUsedCount1,Code,CardUsedCount2,GroupID,isGetAward,RegTime FROM bs_user WHERE RoleID=81064793292688928]
+120382 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+120386 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@60f22b: SELECT GID,RoleID,Title,Content,Type,DateTime FROM bs_message WHERE RoleID=81064793292688928]
+120387 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+120387 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #用时[9] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@5f0cac12[0414,81064793292688928,0414],)]
+120388 2017-04-14 10:36:39 [GlobalLog] SYSTEM_INFO #添加一个定时器[4][core.detail.impl.mgr.timer.TickEvent@32daab00 [ID:4] NextRunTime[1492137699792] Run[logic.MyUser@5f0cac12[0414,81064793292688928,0414]] SpaceTime[300000]]
+120389 2017-04-14 10:36:39 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-04-14 10:36:39',1,2,10,108,1,1)
+120512 2017-04-14 10:36:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:36:39',1,2,0,202)
+120669 2017-04-14 10:36:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:36:40',3,4,0,0,427)
+190759 2017-04-14 10:37:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@26d3a0e5用时[14] SQL:[core.DBLoaderEx$SaveGlobalMethod@26d3a0e5]
+191157 2017-04-14 10:37:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:37:50',1,3,0,202)
+191749 2017-04-14 10:37:51 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:37:51',1,5,0,0,0)
+374717 2017-04-14 10:40:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@588c0600用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@588c0600]
+374934 2017-04-14 10:40:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:40:54',1,6,0,0,0)
+375028 2017-04-14 10:40:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:40:54',1,4,0,202)
+420412 2017-04-14 10:41:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@7bb40a19: UPDATE bs_user Set RegTime = '2017-04-14 10:36:39' WHERE RoleID = 81064793292688928]
+420415 2017-04-14 10:41:39 [GlobalLog] SYSTEM_INFO #用时[10] SQL:[core.detail.impl.SaveMethod@43b0a869]
+420620 2017-04-14 10:41:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:41:40',1,5,0,202)
+421019 2017-04-14 10:41:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:41:40',1,7,0,0,15)
+558716 2017-04-14 10:43:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@7dd40dcf用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@7dd40dcf]
+558904 2017-04-14 10:43:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:43:58',1,6,0,202)
+559160 2017-04-14 10:43:58 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:43:58',1,8,0,0,0)
+607255 2017-04-14 10:44:46 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:2]
+720390 2017-04-14 10:46:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@58045a46]
+720729 2017-04-14 10:46:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:46:40',1,7,0,202)
+721324 2017-04-14 10:46:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:46:40',1,9,0,0,0)
+722278 2017-04-14 10:46:41 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:5]
+742714 2017-04-14 10:47:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@663f94de用时[0] SQL:[core.DBLoaderEx$SaveGlobalMethod@663f94de]
+742775 2017-04-14 10:47:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:47:02',1,8,0,202)
+743347 2017-04-14 10:47:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:47:02',1,10,0,0,0)
+792292 2017-04-14 10:47:51 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+926716 2017-04-14 10:50:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2594995用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@2594995]
+927146 2017-04-14 10:50:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:50:06',1,9,0,202)
+927533 2017-04-14 10:50:06 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:50:06',1,11,0,0,0)
+1020392 2017-04-14 10:51:39 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[core.detail.impl.SaveMethod@56f73aba]
+1020627 2017-04-14 10:51:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:51:40',1,12,0,0,0)
+1020837 2017-04-14 10:51:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:51:40',1,10,0,202)
+1022338 2017-04-14 10:51:41 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+1110715 2017-04-14 10:53:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@69cc7953用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@69cc7953]
+1110718 2017-04-14 10:53:10 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:53:10',1,13,0,0,0)
+1111021 2017-04-14 10:53:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:53:10',1,11,0,202)
+1294717 2017-04-14 10:56:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@867d5ae用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@867d5ae]
+1294890 2017-04-14 10:56:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:56:14',1,12,0,202)
+1294907 2017-04-14 10:56:14 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:56:14',1,14,0,0,0)
+1320390 2017-04-14 10:56:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@4a86756e]
+1320444 2017-04-14 10:56:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:56:39',1,13,0,202)
+1320934 2017-04-14 10:56:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:56:40',1,15,0,0,0)
+1478717 2017-04-14 10:59:18 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@745473b4用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@745473b4]
+1478766 2017-04-14 10:59:18 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:59:18',1,14,0,202)
+1479100 2017-04-14 10:59:18 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 10:59:18',1,16,0,0,1)
+1527441 2017-04-14 11:00:06 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+1620391 2017-04-14 11:01:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@14c8bedf]
+1620561 2017-04-14 11:01:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:01:39',1,15,0,202)
+1621247 2017-04-14 11:01:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:01:40',1,17,0,0,1)
+1662715 2017-04-14 11:02:22 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@158608d2用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@158608d2]
+1663155 2017-04-14 11:02:22 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:02:22',1,16,0,202)
+1663291 2017-04-14 11:02:22 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:02:22',1,18,0,0,0)
+1846715 2017-04-14 11:05:26 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@61177824用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@61177824]
+1847046 2017-04-14 11:05:26 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:05:26',1,17,0,202)
+1847486 2017-04-14 11:05:26 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:05:26',1,19,0,0,1)
+1920391 2017-04-14 11:06:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@38976561]
+1920565 2017-04-14 11:06:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:06:39',1,20,0,0,0)
+1920723 2017-04-14 11:06:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:06:40',1,18,0,202)
+1922520 2017-04-14 11:06:41 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+2030716 2017-04-14 11:08:30 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@638dd5cc用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@638dd5cc]
+2030965 2017-04-14 11:08:30 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:08:30',1,19,0,202)
+2031679 2017-04-14 11:08:31 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:08:31',1,21,0,0,0)
+2214716 2017-04-14 11:11:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1b0e8012用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@1b0e8012]
+2214866 2017-04-14 11:11:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:11:34',1,20,0,202)
+2214883 2017-04-14 11:11:34 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:11:34',1,22,0,0,0)
+2220392 2017-04-14 11:11:39 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[core.detail.impl.SaveMethod@1cf04a1c]
+2220883 2017-04-14 11:11:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:11:40',1,21,0,202)
+2220890 2017-04-14 11:11:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:11:40',1,23,0,0,0)
+2267589 2017-04-14 11:12:26 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+2288797 2017-04-14 11:12:48 [UserLog913751124] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@499e8933]创建了用户[logic.MyUser@3676bc54[,0,]]
+2288798 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[1235126579] userhash[913751124]
+2288798 2017-04-14 11:12:48 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-04-14 11:12:48',1,3,10,118,2,1)
+2289317 2017-04-14 11:12:48 [GlobalLog] INFO [0]*(Login#Register:041400,1,2017年04月14日 11时12分48秒)
+2289317 2017-04-14 11:12:48 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:041400,1,2017年04月14日 11时12分48秒,result:true,size:1)
+2289323 2017-04-14 11:12:48 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:041400,2017年04月14日 11时12分48秒,result:)
+2289326 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@26ccbdd3: select * from bs_user where Tel = '041400']
+2289326 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+2289330 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@422f8e7f: SELECT * FROM bs_user ORDER BY ROLEID DESC LIMIT 1]
+2289330 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+2289330 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #读取配置文件:[用[81064793292688928初始化角色生成器,下一个生成的值为:81064793292698928]
+2289333 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2c128521: insert into bs_user(RoleID, tel, Password, isEb, GroupID) values (81064793292698928, '041400', '123', 1, 555)]
+2289335 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@26ccbdd3: select * from bs_user where Tel = '041400']
+2289335 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+2289336 2017-04-14 11:12:48 [UserLog913751124] SYSTEM_INFO #logic.methodex.LoginMethod@38f2b07bUserMgr添加一个用户,nk[041400@1] gid[81064793292698928] netid[0] this[logic.MyUser@3676bc54[041400,81064793292698928,041400]]
+2289337 2017-04-14 11:12:48 [UserLog913751124] SYSTEM_INFO #logic.methodex.LoginMethod@38f2b07bUserMgr成功添加一个用户,nk[041400@1] gid[81064793292698928] netid[1] this[logic.MyUser@3676bc54[041400,81064793292698928,041400]]
+2289337 2017-04-14 11:12:48 [UserLog913751124] SQL INSERT INTO RegisterLog (ServerID,Tm,UserID,UserName,IP,Device,DeviceModel,Type) VALUES (18,'2017-04-14 11:12:48',81064793292698928,'041400','192.168.2.91','1520832d20f9e05a45e07159c788e12b','asus ASUS_Z00DUO',1)
+2289339 2017-04-14 11:12:48 [GlobalLog] SYSTEM_INFO #用时[15] SQL:[logic.methodex.LoginMethod@38f2b07b]
+2289534 2017-04-14 11:12:48 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:12:48',1,22,0,202)
+2289816 2017-04-14 11:12:49 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-04-14 11:12:49',2,5,116,234,2,2)
+2289823 2017-04-14 11:12:49 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@6fbd0483: SELECT RoleID,Tel,Mail,UserName,Password,Area,Gate,Money,LoginDays,ChargeNum,ChargeCount,IsEb,DriveInfo,CardUsedCount1,Code,CardUsedCount2,GroupID,isGetAward,RegTime FROM bs_user WHERE RoleID=81064793292698928]
+2289823 2017-04-14 11:12:49 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+2289825 2017-04-14 11:12:49 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@28b763bf: SELECT GID,RoleID,Title,Content,Type,DateTime FROM bs_message WHERE RoleID=81064793292698928]
+2289825 2017-04-14 11:12:49 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+2289825 2017-04-14 11:12:49 [GlobalLog] SYSTEM_INFO #用时[7] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@3676bc54[041400,81064793292698928,041400],)]
+2289826 2017-04-14 11:12:49 [GlobalLog] SYSTEM_INFO #添加一个定时器[5][core.detail.impl.mgr.timer.TickEvent@32bd2300 [ID:5] NextRunTime[1492139869230] Run[logic.MyUser@3676bc54[041400,81064793292698928,041400]] SpaceTime[300000]]
+2289989 2017-04-14 11:12:49 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:12:49',4,27,0,0,1)
+2290039 2017-04-14 11:12:49 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:12:49',1,23,0,202)
+2294318 2017-04-14 11:12:53 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-04-14 11:12:53',2,7,20,254,2,2)
+2294997 2017-04-14 11:12:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:12:54',1,28,0,0,0)
+2322899 2017-04-14 11:13:22 [UserLog913751124] SYSTEM_ERROR #Link::OnRead异常,导致关闭 uid[81064793292698928] user[logic.MyUser@3676bc54[041400,81064793292698928,041400]]
+2322926 2017-04-14 11:13:22 [UserLog913751124] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@499e8933]
+2322926 2017-04-14 11:13:22 [UserLog913751124] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@499e8933][logic.MyUser@3676bc54[041400,81064793292698928,041400]]
+2322927 2017-04-14 11:13:22 [UserLog913751124] SYSTEM_INFO #User对象断开了 nk[041400] gid[81064793292698928] netid[1] this[logic.MyUser@3676bc54[041400,81064793292698928,041400]] reason:[-4] ex:[0]
+2322935 2017-04-14 11:13:22 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-04-14 11:13:22','041400',81064793292698928,913751124,-4,0)
+2322938 2017-04-14 11:13:22 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[5]
+2323209 2017-04-14 11:13:22 [UserLog913751124] SYSTEM_INFO #平时检查释放的User对象  nk[041400] gid[81064793292698928] netid[1] this[logic.MyUser@3676bc54[041400,81064793292698928,041400]]
+2323210 2017-04-14 11:13:22 [UserLog913751124] SYSTEM_INFO #UserMgr成功释放一个用户,nk[041400@1] gid[81064793292698928] netid[1] this[logic.MyUser@3676bc54[041400,81064793292698928,041400]]
+2323214 2017-04-14 11:13:22 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@2353992d: UPDATE bs_user Set RegTime = '2017-04-14 11:12:49' WHERE RoleID = 81064793292698928]
+2323216 2017-04-14 11:13:22 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[core.detail.impl.SaveMethod@6da0a329]
+2323614 2017-04-14 11:13:23 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:13:23',1,24,0,202)
+2324028 2017-04-14 11:13:23 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:13:23',1,29,0,0,22)
+2398716 2017-04-14 11:14:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5b84a1a用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@5b84a1a]
+2398774 2017-04-14 11:14:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:14:38',1,25,0,202)
+2399105 2017-04-14 11:14:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:14:38',1,30,0,0,0)
+2520391 2017-04-14 11:16:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@2448cc60]
+2520588 2017-04-14 11:16:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:16:39',1,26,0,202)
+2521241 2017-04-14 11:16:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:16:40',1,31,0,0,0)
+2582716 2017-04-14 11:17:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4ce9f38f用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@4ce9f38f]
+2582717 2017-04-14 11:17:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:17:42',1,27,0,202)
+2583308 2017-04-14 11:17:42 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:17:42',1,32,0,0,0)
+2766715 2017-04-14 11:20:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5402cd54用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@5402cd54]
+2767102 2017-04-14 11:20:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:20:46',1,28,0,202)
+2767500 2017-04-14 11:20:46 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:20:46',1,33,0,0,0)
+2820390 2017-04-14 11:21:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@5b887768]
+2820557 2017-04-14 11:21:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:21:39',1,34,0,0,0)
+2820712 2017-04-14 11:21:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:21:40',1,29,0,202)
+2892715 2017-04-14 11:22:52 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:5]
+2927722 2017-04-14 11:23:27 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+2950716 2017-04-14 11:23:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3c698685用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@3c698685]
+2950975 2017-04-14 11:23:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:23:50',1,30,0,202)
+2951707 2017-04-14 11:23:51 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:23:51',1,35,0,0,2)
+3002737 2017-04-14 11:24:42 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+3120392 2017-04-14 11:26:39 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[core.detail.impl.SaveMethod@6433ddf7]
+3120829 2017-04-14 11:26:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:26:40',1,31,0,202)
+3120884 2017-04-14 11:26:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:26:40',1,36,0,0,0)
+3134714 2017-04-14 11:26:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6eac9a2a用时[0] SQL:[core.DBLoaderEx$SaveGlobalMethod@6eac9a2a]
+3134859 2017-04-14 11:26:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:26:54',1,32,0,202)
+3134902 2017-04-14 11:26:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:26:54',1,37,0,0,0)
+3318716 2017-04-14 11:29:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@426177da用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@426177da]
+3318735 2017-04-14 11:29:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:29:58',1,33,0,202)
+3319101 2017-04-14 11:29:58 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:29:58',1,38,0,0,0)
+3420390 2017-04-14 11:31:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@66b07c5c]
+3420439 2017-04-14 11:31:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:31:39',1,34,0,202)
+3421204 2017-04-14 11:31:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:31:40',1,39,0,0,0)
+3502716 2017-04-14 11:33:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@b0fe475用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@b0fe475]
+3503106 2017-04-14 11:33:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:33:02',1,35,0,202)
+3503291 2017-04-14 11:33:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:33:02',1,40,0,0,0)
+3686716 2017-04-14 11:36:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4d77bc39用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@4d77bc39]
+3686982 2017-04-14 11:36:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:36:06',1,36,0,202)
+3687476 2017-04-14 11:36:06 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:36:06',1,41,0,0,0)
+3720390 2017-04-14 11:36:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@5458160b]
+3720515 2017-04-14 11:36:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:36:39',1,42,0,0,0)
+3720551 2017-04-14 11:36:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:36:39',1,37,0,202)
+3722881 2017-04-14 11:36:42 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+3737884 2017-04-14 11:36:57 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+3870716 2017-04-14 11:39:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@44445675用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@44445675]
+3870854 2017-04-14 11:39:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:39:10',1,38,0,202)
+3871671 2017-04-14 11:39:11 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:39:11',1,43,0,0,1)
+4020391 2017-04-14 11:41:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@3e0ff814]
+4020662 2017-04-14 11:41:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:41:40',1,39,0,202)
+4020824 2017-04-14 11:41:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:41:40',1,44,0,0,0)
+4054715 2017-04-14 11:42:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@51aef95b用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@51aef95b]
+4054733 2017-04-14 11:42:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:42:14',1,40,0,202)
+4054860 2017-04-14 11:42:14 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:42:14',1,45,0,0,0)
+4238717 2017-04-14 11:45:18 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@51ff3907用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@51ff3907]
+4239066 2017-04-14 11:45:18 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:45:18',1,46,0,0,1)
+4239107 2017-04-14 11:45:18 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:45:18',1,41,0,202)
+4320390 2017-04-14 11:46:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@454efd34]
+4320773 2017-04-14 11:46:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:46:40',1,42,0,202)
+4321150 2017-04-14 11:46:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:46:40',1,47,0,0,0)
+4422716 2017-04-14 11:48:22 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@691a7c4b用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@691a7c4b]
+4422984 2017-04-14 11:48:22 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:48:22',1,43,0,202)
+4423254 2017-04-14 11:48:22 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:48:22',1,48,0,0,0)
+4473031 2017-04-14 11:49:12 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+4606716 2017-04-14 11:51:26 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@583b34fe用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@583b34fe]
+4606860 2017-04-14 11:51:26 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:51:26',1,44,0,202)
+4607455 2017-04-14 11:51:26 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:51:26',1,49,0,0,0)
+4620389 2017-04-14 11:51:39 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@772d73dc]
+4620469 2017-04-14 11:51:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:51:39',1,50,0,0,0)
+4620889 2017-04-14 11:51:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:51:40',1,45,0,202)
+4623061 2017-04-14 11:51:42 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+4790715 2017-04-14 11:54:30 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@53233657用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@53233657]
+4790744 2017-04-14 11:54:30 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:54:30',1,46,0,202)
+4791651 2017-04-14 11:54:31 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:54:31',1,51,0,0,0)
+4920391 2017-04-14 11:56:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@23e8bab2]
+4920513 2017-04-14 11:56:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:56:39',1,47,0,202)
+4920785 2017-04-14 11:56:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:56:40',1,52,0,0,2)
+4974714 2017-04-14 11:57:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6734f965用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@6734f965]
+4974845 2017-04-14 11:57:34 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:57:34',1,53,0,0,1)
+4975132 2017-04-14 11:57:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 11:57:34',1,48,0,202)
+5158716 2017-04-14 12:00:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2e75f71a用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@2e75f71a]
+5159043 2017-04-14 12:00:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:00:38',1,54,0,0,0)
+5159077 2017-04-14 12:00:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:00:38',1,49,0,202)
+5208178 2017-04-14 12:01:27 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+5220392 2017-04-14 12:01:39 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[core.detail.impl.SaveMethod@67dd3760]
+5220749 2017-04-14 12:01:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:01:40',1,50,0,202)
+5221111 2017-04-14 12:01:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:01:40',1,55,0,0,0)
+5342716 2017-04-14 12:03:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@12239844用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@12239844]
+5343001 2017-04-14 12:03:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:03:42',1,51,0,202)
+5343246 2017-04-14 12:03:42 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:03:42',1,56,0,0,0)
+5520392 2017-04-14 12:06:39 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[core.detail.impl.SaveMethod@2fa2053e]
+5520455 2017-04-14 12:06:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:06:39',1,57,0,0,1)
+5520886 2017-04-14 12:06:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:06:40',1,52,0,202)
+5523241 2017-04-14 12:06:42 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+5526715 2017-04-14 12:06:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6e80ddac用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@6e80ddac]
+5526899 2017-04-14 12:06:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:06:46',1,53,0,202)
+5527463 2017-04-14 12:06:46 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:06:46',1,58,0,0,0)
+5710716 2017-04-14 12:09:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@c0aca5d用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@c0aca5d]
+5710790 2017-04-14 12:09:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:09:50',1,54,0,202)
+5711683 2017-04-14 12:09:51 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:09:51',1,59,0,0,0)
+5820391 2017-04-14 12:11:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@54cfca1d]
+5820511 2017-04-14 12:11:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:11:39',1,55,0,202)
+5820802 2017-04-14 12:11:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:11:40',1,60,0,0,0)
+5894715 2017-04-14 12:12:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@50ff8e19用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@50ff8e19]
+5894881 2017-04-14 12:12:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:12:54',1,61,0,0,0)
+5895171 2017-04-14 12:12:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:12:54',1,56,0,202)
+5943326 2017-04-14 12:13:42 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+6078716 2017-04-14 12:15:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@f69683a用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@f69683a]
+6079048 2017-04-14 12:15:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:15:58',1,57,0,202)
+6079083 2017-04-14 12:15:58 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:15:58',1,62,0,0,0)
+6120390 2017-04-14 12:16:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@fa1954a]
+6120668 2017-04-14 12:16:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:16:40',1,58,0,202)
+6121164 2017-04-14 12:16:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:16:40',1,63,0,0,1)
+6262716 2017-04-14 12:19:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@23386934用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@23386934]
+6262967 2017-04-14 12:19:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:19:02',1,59,0,202)
+6263310 2017-04-14 12:19:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:19:02',1,64,0,0,1)
+6420435 2017-04-14 12:21:39 [GlobalLog] SYSTEM_INFO #用时[46] SQL:[core.detail.impl.SaveMethod@1383988b]
+6420619 2017-04-14 12:21:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:21:40',1,65,0,0,0)
+6420805 2017-04-14 12:21:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:21:40',1,60,0,202)
+6423424 2017-04-14 12:21:42 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+6446715 2017-04-14 12:22:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@28e06395用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@28e06395]
+6446858 2017-04-14 12:22:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:22:06',1,61,0,202)
+6447651 2017-04-14 12:22:07 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:22:07',1,66,0,0,0)
+6630716 2017-04-14 12:25:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5dc66278用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@5dc66278]
+6630732 2017-04-14 12:25:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:25:10',1,62,0,202)
+6630837 2017-04-14 12:25:10 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:25:10',1,67,0,0,0)
+6683476 2017-04-14 12:26:02 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+6720391 2017-04-14 12:26:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@103009fb]
+6720443 2017-04-14 12:26:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:26:39',1,63,0,202)
+6720955 2017-04-14 12:26:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:26:40',1,68,0,0,3)
+6814717 2017-04-14 12:28:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2854bb14用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@2854bb14]
+6815072 2017-04-14 12:28:14 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:28:14',1,69,0,0,0)
+6815151 2017-04-14 12:28:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:28:14',1,64,0,202)
+6998716 2017-04-14 12:31:18 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@a37f6b0用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@a37f6b0]
+6999027 2017-04-14 12:31:18 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:31:18',1,65,0,202)
+6999261 2017-04-14 12:31:18 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:31:18',1,70,0,0,0)
+7020389 2017-04-14 12:31:39 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@5f6af19f]
+7020571 2017-04-14 12:31:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:31:39',1,66,0,202)
+7021313 2017-04-14 12:31:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:31:40',1,71,0,0,0)
+7182715 2017-04-14 12:34:22 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5e600bdc用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@5e600bdc]
+7182903 2017-04-14 12:34:22 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:34:22',1,67,0,202)
+7183483 2017-04-14 12:34:22 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:34:22',1,72,0,0,0)
+7320390 2017-04-14 12:36:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@4eb39e8d]
+7320629 2017-04-14 12:36:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:36:40',1,73,0,0,0)
+7320687 2017-04-14 12:36:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:36:40',1,68,0,202)
+7323604 2017-04-14 12:36:43 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+7366714 2017-04-14 12:37:26 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@46c9de49用时[0] SQL:[core.DBLoaderEx$SaveGlobalMethod@46c9de49]
+7366788 2017-04-14 12:37:26 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:37:26',1,69,0,202)
+7367682 2017-04-14 12:37:27 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:37:27',1,74,0,0,1)
+7418623 2017-04-14 12:38:18 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+7550716 2017-04-14 12:40:30 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2c4de8d6用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@2c4de8d6]
+7550875 2017-04-14 12:40:30 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:40:30',1,75,0,0,0)
+7551187 2017-04-14 12:40:30 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:40:30',1,70,0,202)
+7620390 2017-04-14 12:41:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@796f5a7f]
+7620828 2017-04-14 12:41:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:41:40',1,71,0,202)
+7621058 2017-04-14 12:41:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:41:40',1,76,0,0,0)
+7734716 2017-04-14 12:43:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6f245ad2用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@6f245ad2]
+7735076 2017-04-14 12:43:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:43:34',1,72,0,202)
+7735188 2017-04-14 12:43:34 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:43:34',1,77,0,0,0)
+7918716 2017-04-14 12:46:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5b6c9420用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@5b6c9420]
+7918965 2017-04-14 12:46:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:46:38',1,73,0,202)
+7919399 2017-04-14 12:46:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:46:38',1,78,0,0,1)
+7920390 2017-04-14 12:46:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@f0c5502]
+7920425 2017-04-14 12:46:39 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:46:39',1,79,0,0,25)
+7920470 2017-04-14 12:46:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:46:39',1,74,0,202)
+8102715 2017-04-14 12:49:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1481005c用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@1481005c]
+8102876 2017-04-14 12:49:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:49:42',1,75,0,202)
+8103611 2017-04-14 12:49:43 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:49:43',1,80,0,0,0)
+8153776 2017-04-14 12:50:33 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+8220390 2017-04-14 12:51:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@65b4530c]
+8220623 2017-04-14 12:51:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:51:40',1,76,0,202)
+8220729 2017-04-14 12:51:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:51:40',1,81,0,0,1)
+8223790 2017-04-14 12:51:43 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+8286715 2017-04-14 12:52:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@18687f76用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@18687f76]
+8286760 2017-04-14 12:52:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:52:46',1,77,0,202)
+8286810 2017-04-14 12:52:46 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:52:46',1,82,0,0,0)
+8470716 2017-04-14 12:55:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3680d514用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@3680d514]
+8471002 2017-04-14 12:55:50 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:55:50',1,83,0,0,0)
+8471143 2017-04-14 12:55:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:55:50',1,78,0,202)
+8520390 2017-04-14 12:56:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@17be9790]
+8520756 2017-04-14 12:56:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:56:40',1,79,0,202)
+8521071 2017-04-14 12:56:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:56:40',1,84,0,0,1)
+8654715 2017-04-14 12:58:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@d6c0a3c用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@d6c0a3c]
+8655036 2017-04-14 12:58:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:58:54',1,80,0,202)
+8655207 2017-04-14 12:58:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 12:58:54',1,85,0,0,0)
+8820391 2017-04-14 13:01:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@15eb31f6]
+8820394 2017-04-14 13:01:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:01:39',1,81,0,202)
+8821380 2017-04-14 13:01:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:01:40',1,86,0,0,0)
+8838715 2017-04-14 13:01:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@51fc6116用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@51fc6116]
+8838960 2017-04-14 13:01:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:01:58',1,82,0,202)
+8839400 2017-04-14 13:01:58 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:01:58',1,87,0,0,0)
+8888924 2017-04-14 13:02:48 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+9022715 2017-04-14 13:05:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@41162022用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@41162022]
+9022863 2017-04-14 13:05:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:05:02',1,83,0,202)
+9023600 2017-04-14 13:05:03 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:05:03',1,88,0,0,0)
+9120391 2017-04-14 13:06:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@140efb87]
+9120567 2017-04-14 13:06:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:06:39',1,84,0,202)
+9120698 2017-04-14 13:06:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:06:40',1,89,0,0,3)
+9123973 2017-04-14 13:06:43 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+9206715 2017-04-14 13:08:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2707eb21用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@2707eb21]
+9206742 2017-04-14 13:08:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:08:06',1,85,0,202)
+9206787 2017-04-14 13:08:06 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:08:06',1,90,0,0,0)
+9390715 2017-04-14 13:11:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5f5b72d3用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@5f5b72d3]
+9390975 2017-04-14 13:11:10 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:11:10',1,91,0,0,0)
+9391133 2017-04-14 13:11:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:11:10',1,86,0,202)
+9420390 2017-04-14 13:11:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@76e099ff]
+9420694 2017-04-14 13:11:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:11:40',1,87,0,202)
+9421029 2017-04-14 13:11:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:11:40',1,92,0,0,1)
+9574716 2017-04-14 13:14:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@d82ed84用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@d82ed84]
+9575006 2017-04-14 13:14:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:14:14',1,88,0,202)
+9575197 2017-04-14 13:14:14 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:14:14',1,93,0,0,0)
+9624080 2017-04-14 13:15:03 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+9720391 2017-04-14 13:16:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@4ff95b0b]
+9720801 2017-04-14 13:16:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:16:40',1,89,0,202)
+9721351 2017-04-14 13:16:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:16:40',1,94,0,0,0)
+9758715 2017-04-14 13:17:18 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@58a21d2b用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@58a21d2b]
+9758878 2017-04-14 13:17:18 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:17:18',1,90,0,202)
+9759396 2017-04-14 13:17:18 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:17:18',1,95,0,0,0)
+9942715 2017-04-14 13:20:22 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1a9e0673用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@1a9e0673]
+9942820 2017-04-14 13:20:22 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:20:22',1,91,0,202)
+9943583 2017-04-14 13:20:22 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:20:22',1,96,0,0,0)
+10020392 2017-04-14 13:21:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@1cf98e61]
+10020477 2017-04-14 13:21:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:21:39',1,92,0,202)
+10020662 2017-04-14 13:21:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:21:40',1,97,0,0,0)
+10024160 2017-04-14 13:21:43 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+10126717 2017-04-14 13:23:26 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@47cb1c55用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@47cb1c55]
+10126770 2017-04-14 13:23:26 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:23:26',1,98,0,0,0)
+10127196 2017-04-14 13:23:26 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:23:26',1,93,0,202)
+10310716 2017-04-14 13:26:30 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@40ac4062用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@40ac4062]
+10310961 2017-04-14 13:26:30 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:26:30',1,99,0,0,1)
+10311126 2017-04-14 13:26:30 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:26:30',1,94,0,202)
+10320391 2017-04-14 13:26:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@33ed9f7a]
+10320647 2017-04-14 13:26:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:26:40',1,95,0,202)
+10320975 2017-04-14 13:26:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:26:40',1,100,0,0,1)
+10359227 2017-04-14 13:27:18 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+10494716 2017-04-14 13:29:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6a10b4a2用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@6a10b4a2]
+10495012 2017-04-14 13:29:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:29:34',1,96,0,202)
+10495179 2017-04-14 13:29:34 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:29:34',1,101,0,0,0)
+10620391 2017-04-14 13:31:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@461bfafb]
+10620771 2017-04-14 13:31:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:31:40',1,97,0,202)
+10621313 2017-04-14 13:31:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:31:40',1,102,0,0,2)
+10678716 2017-04-14 13:32:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@2342eca3用时[0] SQL:[core.DBLoaderEx$SaveGlobalMethod@2342eca3]
+10678907 2017-04-14 13:32:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:32:38',1,98,0,202)
+10679406 2017-04-14 13:32:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:32:38',1,103,0,0,1)
+10862717 2017-04-14 13:35:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@6cf11842用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@6cf11842]
+10862781 2017-04-14 13:35:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:35:42',1,99,0,202)
+10863596 2017-04-14 13:35:43 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:35:42',1,104,0,0,0)
+10920391 2017-04-14 13:36:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@82fff14]
+10920402 2017-04-14 13:36:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:36:39',1,100,0,202)
+10920655 2017-04-14 13:36:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:36:40',1,105,0,0,0)
+10924343 2017-04-14 13:36:43 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+11046718 2017-04-14 13:38:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4326c77a用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@4326c77a]
+11046789 2017-04-14 13:38:46 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:38:46',1,106,0,0,1)
+11047172 2017-04-14 13:38:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:38:46',1,101,0,202)
+11099378 2017-04-14 13:39:38 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+11220391 2017-04-14 13:41:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@383ef395]
+11220523 2017-04-14 13:41:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:41:39',1,102,0,202)
+11220993 2017-04-14 13:41:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:41:40',1,107,0,0,1)
+11230715 2017-04-14 13:41:50 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@210cb197用时[0] SQL:[core.DBLoaderEx$SaveGlobalMethod@210cb197]
+11231004 2017-04-14 13:41:50 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:41:50',1,108,0,0,0)
+11231048 2017-04-14 13:41:50 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:41:50',1,103,0,202)
+11414716 2017-04-14 13:44:54 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@3adf63e9用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@3adf63e9]
+11414927 2017-04-14 13:44:54 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:44:54',1,104,0,202)
+11415192 2017-04-14 13:44:54 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:44:54',1,109,0,0,0)
+11520391 2017-04-14 13:46:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@59b6f987]
+11520645 2017-04-14 13:46:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:46:40',1,105,0,202)
+11521312 2017-04-14 13:46:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:46:40',1,110,0,0,1)
+11598716 2017-04-14 13:47:58 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@4888db47用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@4888db47]
+11598807 2017-04-14 13:47:58 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:47:58',1,106,0,202)
+11598816 2017-04-14 13:47:58 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:47:58',1,111,0,0,0)
+11782716 2017-04-14 13:51:02 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1c109f68用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@1c109f68]
+11783002 2017-04-14 13:51:02 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:51:02',1,112,0,0,0)
+11783178 2017-04-14 13:51:02 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:51:02',1,107,0,202)
+11820391 2017-04-14 13:51:39 [GlobalLog] SYSTEM_INFO #用时[0] SQL:[core.detail.impl.SaveMethod@511a412c]
+11820757 2017-04-14 13:51:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:51:40',1,108,0,202)
+11821044 2017-04-14 13:51:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:51:40',1,113,0,0,0)
+11824523 2017-04-14 13:51:43 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+11834525 2017-04-14 13:51:53 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+11966717 2017-04-14 13:54:06 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@14da25d用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@14da25d]
+11967050 2017-04-14 13:54:06 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:54:06',1,109,0,202)
+11967192 2017-04-14 13:54:06 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:54:06',1,114,0,0,0)
+12120392 2017-04-14 13:56:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@5ec54607]
+12120418 2017-04-14 13:56:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:56:39',1,110,0,202)
+12121364 2017-04-14 13:56:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:56:40',1,115,0,0,0)
+12150716 2017-04-14 13:57:10 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@58d4219用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@58d4219]
+12150985 2017-04-14 13:57:10 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:57:10',1,111,0,202)
+12151396 2017-04-14 13:57:10 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 13:57:10',1,116,0,0,0)
+12334717 2017-04-14 14:00:14 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1fd19250用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@1fd19250]
+12334875 2017-04-14 14:00:14 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:00:14',1,112,0,202)
+12335601 2017-04-14 14:00:15 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:00:15',1,117,0,0,9)
+12420393 2017-04-14 14:01:39 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[core.detail.impl.SaveMethod@71a52d9c]
+12420552 2017-04-14 14:01:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:01:39',1,113,0,202)
+12420694 2017-04-14 14:01:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:01:40',1,118,0,0,0)
+12518718 2017-04-14 14:03:18 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5df37b4c用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@5df37b4c]
+12518756 2017-04-14 14:03:18 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:03:18',1,114,0,202)
+12518810 2017-04-14 14:03:18 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:03:18',1,119,0,0,0)
+12569672 2017-04-14 14:04:09 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+12702718 2017-04-14 14:06:22 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1b838a27用时[3] SQL:[core.DBLoaderEx$SaveGlobalMethod@1b838a27]
+12703013 2017-04-14 14:06:22 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:06:22',1,120,0,0,0)
+12703161 2017-04-14 14:06:22 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:06:22',1,115,0,202)
+12720391 2017-04-14 14:06:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@4e57f1ce]
+12720704 2017-04-14 14:06:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:06:40',1,116,0,202)
+12721033 2017-04-14 14:06:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:06:40',1,121,0,0,2)
+12724704 2017-04-14 14:06:44 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+12886716 2017-04-14 14:09:26 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@56cffdd2用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@56cffdd2]
+12887063 2017-04-14 14:09:26 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:09:26',1,117,0,202)
+12887210 2017-04-14 14:09:26 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:09:26',1,122,0,0,0)
+13020391 2017-04-14 14:11:39 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@7b83d2a2]
+13020861 2017-04-14 14:11:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:11:40',1,118,0,202)
+13021352 2017-04-14 14:11:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:11:40',1,123,0,0,2)
+13070716 2017-04-14 14:12:30 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5180206a用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@5180206a]
+13070963 2017-04-14 14:12:30 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:12:30',1,119,0,202)
+13071404 2017-04-14 14:12:30 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:12:30',1,124,0,0,0)
+13254717 2017-04-14 14:15:34 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@169264b9用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@169264b9]
+13254870 2017-04-14 14:15:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:15:34',1,120,0,202)
+13255631 2017-04-14 14:15:35 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:15:35',1,125,0,0,0)
+13304862 2017-04-14 14:16:24 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+13320392 2017-04-14 14:16:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@3fcec9a1]
+13320504 2017-04-14 14:16:39 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:16:39',1,121,0,202)
+13320697 2017-04-14 14:16:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:16:40',1,126,0,0,0)
+13438717 2017-04-14 14:18:38 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@5c151781用时[2] SQL:[core.DBLoaderEx$SaveGlobalMethod@5c151781]
+13438744 2017-04-14 14:18:38 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:18:38',1,122,0,202)
+13438824 2017-04-14 14:18:38 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:18:38',1,127,0,0,1)
+13620392 2017-04-14 14:21:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@58339ca9]
+13620613 2017-04-14 14:21:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:21:40',1,123,0,202)
+13621015 2017-04-14 14:21:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:21:40',1,128,0,0,0)
+13622717 2017-04-14 14:21:42 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@27255d23用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@27255d23]
+13623019 2017-04-14 14:21:42 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:21:42',1,129,0,0,0)
+13623122 2017-04-14 14:21:42 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:21:42',1,124,0,202)
+13624926 2017-04-14 14:21:44 [GlobalLog] SYSTEM_INFO #[#$%释放MySQLOper:1]
+13806716 2017-04-14 14:24:46 [GlobalLog] SYSTEM_INFO #core.DBLoaderEx$SaveGlobalMethod@1379410a用时[1] SQL:[core.DBLoaderEx$SaveGlobalMethod@1379410a]
+13807001 2017-04-14 14:24:46 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:24:46',1,125,0,202)
+13807229 2017-04-14 14:24:46 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:24:46',1,130,0,0,0)
+13920392 2017-04-14 14:26:39 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[core.detail.impl.SaveMethod@159e4ef9]
+13920735 2017-04-14 14:26:40 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:26:40',1,126,0,202)
+13921351 2017-04-14 14:26:40 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:26:40',1,131,0,0,1)
+13945311 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+13945311 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年04月14日 14时27分04秒
+13945311 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1103] 2017年04月14日 14时27分04秒
+13945327 2017-04-14 14:27:04 [UserLog1594666002] SYSTEM_INFO #断开了连接[core.detail.impl.socket.LinkNio@2d56e9f0]
+13945327 2017-04-14 14:27:04 [UserLog1594666002] SYSTEM_INFO #准备从管理器去掉用户[core.detail.impl.socket.LinkNio@2d56e9f0][logic.MyUser@5f0cac12[0414,81064793292688928,0414]]
+13945327 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年04月14日 14时27分04秒
+13945328 2017-04-14 14:27:04 [UserLog1594666002] SYSTEM_INFO #User对象断开了 nk[0414] gid[81064793292688928] netid[0] this[logic.MyUser@5f0cac12[0414,81064793292688928,0414]] reason:[-1] ex:[0]
+13945328 2017-04-14 14:27:04 [GlobalLog] SQL INSERT INTO _CloseLog (ServerID,Tm,UserName,RoleID,HashCode,Reason,Ex) VALUES (18,'2017-04-14 14:27:04','0414',81064793292688928,1594666002,-1,0)
+13945330 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #用户下线导致移除了一个定时器[4]
+13945341 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1103] 2017年04月14日 14时27分04秒
+13945341 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年04月14日 14时27分04秒
+13945341 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,NET]] 2017年04月14日 14时27分04秒
+13945419 2017-04-14 14:27:04 [UserLog1594666002] SYSTEM_INFO #平时检查释放的User对象  nk[0414] gid[81064793292688928] netid[0] this[logic.MyUser@5f0cac12[0414,81064793292688928,0414]]
+13945419 2017-04-14 14:27:04 [UserLog1594666002] SYSTEM_INFO #UserMgr成功释放一个用户,nk[0414@1] gid[81064793292688928] netid[0] this[logic.MyUser@5f0cac12[0414,81064793292688928,0414]]
+13945421 2017-04-14 14:27:04 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[core.detail.impl.SaveMethod@e5051f3]
+13945791 2017-04-14 14:27:05 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:27:05',1,127,0,202)
+13946379 2017-04-14 14:27:05 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 14:27:05',1,132,0,0,0)
+13947328 2017-04-14 14:27:06 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年04月14日 14时27分06秒
+13947329 2017-04-14 14:27:06 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@74cbc76d UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年04月14日 14时27分06秒
+13947829 2017-04-14 14:27:07 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@74cbc76d UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年04月14日 14时27分07秒
+13947829 2017-04-14 14:27:07 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年04月14日 14时27分07秒
+13947829 2017-04-14 14:27:07 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年04月14日 14时27分07秒
+13947829 2017-04-14 14:27:07 [GlobalLog] SYSTEM_INFO #系统正在保存全局数据[bs_globalmsg] 一共有[1]条数据
+13947830 2017-04-14 14:27:07 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年04月14日 14时27分07秒
+13948831 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年04月14日 14时27分08秒
+13948832 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年04月14日 14时27分08秒
+13948832 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,LOGIC]] 2017年04月14日 14时27分08秒
+13948832 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年04月14日 14时27分08秒
+13948832 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年04月14日 14时27分08秒
+13948833 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年04月14日 14时27分08秒
+13948833 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,SQL]] 2017年04月14日 14时27分08秒
+13948833 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年04月14日 14时27分08秒
+13948833 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年04月14日 14时27分08秒
+13948874 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年04月14日 14时27分08秒
+13948874 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,SQLLOG]] 2017年04月14日 14时27分08秒
+13948874 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年04月14日 14时27分08秒
+13948906 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年04月14日 14时27分08秒
+13948908 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年04月14日 14时27分08秒
+13948908 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[27,THREADTASK]] 2017年04月14日 14时27分08秒
+13948914 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年04月14日 14时27分08秒
+13948914 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年04月14日 14时27分08秒
+13948914 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11103] 2017年04月14日 14时27分08秒
+13948921 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11103] 2017年04月14日 14时27分08秒
+13948921 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年04月14日 14时27分08秒
+13948921 2017-04-14 14:27:08 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,GMNET]] 2017年04月14日 14时27分08秒
+13978924 2017-04-14 14:27:38 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年04月14日 14时27分38秒
+13978925 2017-04-14 14:27:38 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年04月14日 14时27分38秒
+13978926 2017-04-14 14:27:38 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年04月14日 14时27分38秒
+13979925 2017-04-14 14:27:39 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年04月14日 14时27分39秒
+0 2017-04-14 15:10:10 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+68 2017-04-14 15:10:10 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+396 2017-04-14 15:10:10 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+514 2017-04-14 15:10:10 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+621 2017-04-14 15:10:10 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+687 2017-04-14 15:10:10 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+758 2017-04-14 15:10:10 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+825 2017-04-14 15:10:11 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+1570 2017-04-14 15:10:11 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@11a9e7c8 [ID:0] NextRunTime[1492153811946] Run[logic.module.login.Login@3901d134] SpaceTime[200]]
+1635 2017-04-14 15:10:11 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1848 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+1849 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,3][Login,ResetEnter]
+1850 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+1850 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1851 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1851 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+1852 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+1852 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+1853 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+1853 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+1854 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+1854 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+1857 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+1857 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+1857 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1858 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1859 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[5,0][CharacterImpl,RequestBaseInfo]
+1859 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1859 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.character.CharacterImpl]
+1859 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.character.CharacterImpl]
+1860 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.group.GroupImpl]
+1862 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[1,1][GroupImpl,Update]
+1863 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[1,0][GroupImpl,Create]
+1866 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[1,2][GroupImpl,Delete]
+1866 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.group.GroupImpl]
+1866 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.group.GroupImpl]
+1867 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.group.GroupImpl]
+1868 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.center.CenterImpl]
+1869 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,18][CenterImpl,unlockSmallGate]
+1870 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,4][CenterImpl,RetrievePass]
+1870 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,2][CenterImpl,GetAds]
+1870 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,5][CenterImpl,FullInfo]
+1871 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,6][CenterImpl,GetIcon]
+1871 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,7][CenterImpl,ExchangeCode]
+1871 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,8][CenterImpl,ShareAward]
+1871 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,9][CenterImpl,EvalAward]
+1872 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,10][CenterImpl,LoginAward]
+1872 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,11][CenterImpl,MsgList]
+1872 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,12][CenterImpl,QueryGroup]
+1873 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,13][CenterImpl,View]
+1873 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,14][CenterImpl,ModifyPass]
+1873 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,15][CenterImpl,AboutUs]
+1874 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,17][CenterImpl,GetGroup]
+1874 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加[3,3][CenterImpl,UnlockGate]
+1874 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.center.CenterImpl]
+1875 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.center.CenterImpl]
+1875 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.center.CenterImpl]
+1960 2017-04-14 15:10:12 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@333291e3 [ID:1] NextRunTime[1492153813135] Run[core.ex.GatherInfo@479d31f3] SpaceTime[1000]]
+4407 2017-04-14 15:10:14 [GlobalLog] SYSTEM_INFO #添加一个定时器[2][core.detail.impl.mgr.timer.TickEvent@2bb3058 [ID:2] NextRunTime[1492153957582] Run[logic.loader.MessageLoader@7a362b6b] SpaceTime[143000]]
+4602 2017-04-14 15:10:14 [GlobalLog] SYSTEM_INFO #用时[3] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@5ddf0d24: select * from bs_global]
+4602 2017-04-14 15:10:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+4634 2017-04-14 15:10:14 [GlobalLog] SYSTEM_INFO #用时[5] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@c9d0d6: SELECT * FROM bs_globalmsg]
+4634 2017-04-14 15:10:14 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+4726 2017-04-14 15:10:14 [GlobalLog] SYSTEM_INFO #打开端口[1103]成功
+4728 2017-04-14 15:10:14 [GlobalLog] SYSTEM_INFO #打开端口[11103]成功
+5077 2017-04-14 15:10:15 [GlobalLog] SYSTEM_INFO #正在打开端口[1103]
+5077 2017-04-14 15:10:15 [GlobalLog] SYSTEM_INFO #正在打开端口[11103]
+76311 2017-04-14 15:11:26 [UserLog404662435] SYSTEM_INFO #为连接[core.detail.impl.socket.LinkNio@36df1d01]创建了用户[logic.MyUser@181ea8a3[,0,]]
+76478 2017-04-14 15:11:26 [GlobalLog] SYSTEM_INFO #有一个客户端连接上来linkhash[920591617] userhash[404662435]
+83744 2017-04-14 15:11:33 [GlobalLog] INFO [0]*(Login#Enter:0414,1,2017年04月14日 15时11分33秒)
+83869 2017-04-14 15:11:34 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-04-14 15:11:33',1,1,114,114,1,0)
+83937 2017-04-14 15:11:34 [GlobalLog] INFO [0]*(Login#Enter#AddLoginWait:0414,1,2017年04月14日 15时11分34秒,result:true,size:1)
+83937 2017-04-14 15:11:34 [GlobalLog] SYSTEM_INFO #添加一个定时器[3][core.detail.impl.mgr.timer.TickEvent@73660aca [ID:3] NextRunTime[1492153894413] Run[logic.PackBuffer@594fef9d] SpaceTime[300]]
+83959 2017-04-14 15:11:34 [GlobalLog] INFO [0]*(Login#OnTick#LoginWaitPoll:0414,2017年04月14日 15时11分34秒,result:)
+83973 2017-04-14 15:11:34 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@159ee5fa: select * from bs_user where Tel = '0414']
+83973 2017-04-14 15:11:34 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+83973 2017-04-14 15:11:34 [UserLog404662435] SYSTEM_INFO #logic.methodex.LoginMethod@436eb5a7UserMgr添加一个用户,nk[0414@1] gid[81064793292688928] netid[0] this[logic.MyUser@181ea8a3[0414,81064793292688928,0414]]
+83973 2017-04-14 15:11:34 [UserLog404662435] SYSTEM_INFO #logic.methodex.LoginMethod@436eb5a7UserMgr成功添加一个用户,nk[0414@1] gid[81064793292688928] netid[0] this[logic.MyUser@181ea8a3[0414,81064793292688928,0414]]
+83988 2017-04-14 15:11:34 [GlobalLog] SYSTEM_INFO #用时[18] SQL:[logic.methodex.LoginMethod@436eb5a7]
+84067 2017-04-14 15:11:34 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 15:11:34',2,2,0,0,261)
+84143 2017-04-14 15:11:34 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 15:11:34',1,1,0,266)
+99027 2017-04-14 15:11:49 [GlobalLog] SYSTEM_INFO #用时[2] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@779d5f45: SELECT RoleID,Tel,Mail,UserName,Password,Area,Gate,Money,LoginDays,ChargeNum,ChargeCount,IsEb,DriveInfo,CardUsedCount1,Code,CardUsedCount2,GroupID,isGetAward,RegTime FROM bs_user WHERE RoleID=81064793292688928]
+99027 2017-04-14 15:11:49 [GlobalLog] SYSTEM_INFO #读取到[1]条数据
+99047 2017-04-14 15:11:49 [GlobalLog] SYSTEM_INFO #用时[1] SQL:[com.mysql.jdbc.JDBC4PreparedStatement@5c103022: SELECT GID,RoleID,Title,Content,Type,DateTime FROM bs_message WHERE RoleID=81064793292688928]
+99047 2017-04-14 15:11:49 [GlobalLog] SYSTEM_INFO #读取到[0]条数据
+99047 2017-04-14 15:11:49 [GlobalLog] SYSTEM_INFO #用时[14755] SQL:[RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@181ea8a3[0414,81064793292688928,0414],)]
+99047 2017-04-14 15:11:49 [GlobalLog] SQL INSERT INTO _SQLInfoLog (ServerID,Tm,ProcessSQLNum,ProcessSQLTotalNum,ListNum,UpdateMaxTime) VALUES (18,'2017-04-14 15:11:49',1,2,0,266)
+99048 2017-04-14 15:11:49 [GlobalLog] SYSTEM_INFO #添加一个定时器[4][core.detail.impl.mgr.timer.TickEvent@6ce7da26 [ID:4] NextRunTime[1492154209224] Run[logic.MyUser@181ea8a3[0414,81064793292688928,0414]] SpaceTime[300000]]
+99051 2017-04-14 15:11:49 [GlobalLog] SQL INSERT INTO _NetInfoLog (ServerID,Tm,Msg,MsgTotal,Buffer,BufferTotal,LinkNum,UserNum) VALUES (18,'2017-04-14 15:11:49',4,5,40,154,1,1)
+99073 2017-04-14 15:11:49 [GlobalLog] SYSTEM_INFO #[SQL执行]用时[14757]过多,连接数[1]用户数[1],细则
+RFC[5,0,CharacterInterface.RequestBaseInfo] param(logic.MyUser@181ea8a3[0414,81064793292688928,0414],),81064793292688928,14755
+
+99089 2017-04-14 15:11:49 [GlobalLog] SQL INSERT INTO _LogicInfoLog (ServerID,Tm,ProcessLogicNum,ProcessLogicTotalNum,SQLListNum,LogicListNum,UpdateMaxTime) VALUES (18,'2017-04-14 15:11:49',4,6,0,0,3)

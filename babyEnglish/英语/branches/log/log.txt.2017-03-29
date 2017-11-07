@@ -1,0 +1,165 @@
+0 2017-03-29 13:39:00 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+163 2017-03-29 13:39:00 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+454 2017-03-29 13:39:00 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+579 2017-03-29 13:39:00 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+619 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+647 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+692 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+791 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+1232 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@11a9e7c8 [ID:0] NextRunTime[1490765941836] Run[logic.module.login.Login@3901d134] SpaceTime[200]]
+1300 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1586 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+1588 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+1591 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+1592 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1595 2017-03-29 13:39:01 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+1596 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+1597 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+1598 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+1599 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+1600 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+1602 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+1603 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+1611 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+1611 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+1612 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+1750 2017-03-29 13:39:02 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@1dde4cb2 [ID:1] NextRunTime[1490765943153] Run[core.ex.GatherInfo@7714e963] SpaceTime[1000]]
+5129 2017-03-29 13:39:05 [GlobalLog] SYSTEM_INFO #打开端口[1102]成功
+5131 2017-03-29 13:39:05 [GlobalLog] SYSTEM_INFO #打开端口[11102]成功
+5449 2017-03-29 13:39:05 [GlobalLog] SYSTEM_INFO #正在打开端口[11102]
+5449 2017-03-29 13:39:05 [GlobalLog] SYSTEM_INFO #正在打开端口[1102]
+21381 2017-03-29 13:39:21 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+21382 2017-03-29 13:39:21 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年03月29日 13时39分21秒
+21382 2017-03-29 13:39:21 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1102] 2017年03月29日 13时39分21秒
+21384 2017-03-29 13:39:21 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年03月29日 13时39分21秒
+21400 2017-03-29 13:39:21 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1102] 2017年03月29日 13时39分21秒
+21401 2017-03-29 13:39:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年03月29日 13时39分21秒
+21402 2017-03-29 13:39:21 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,NET]] 2017年03月29日 13时39分21秒
+23385 2017-03-29 13:39:23 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年03月29日 13时39分23秒
+23386 2017-03-29 13:39:23 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@600c3120 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年03月29日 13时39分23秒
+23887 2017-03-29 13:39:24 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@600c3120 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年03月29日 13时39分24秒
+23902 2017-03-29 13:39:24 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年03月29日 13时39分24秒
+23903 2017-03-29 13:39:24 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年03月29日 13时39分24秒
+23940 2017-03-29 13:39:24 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年03月29日 13时39分24秒
+24941 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年03月29日 13时39分25秒
+24942 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年03月29日 13时39分25秒
+24942 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,LOGIC]] 2017年03月29日 13时39分25秒
+24942 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年03月29日 13时39分25秒
+24943 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年03月29日 13时39分25秒
+24944 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年03月29日 13时39分25秒
+24944 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,SQL]] 2017年03月29日 13时39分25秒
+24944 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年03月29日 13时39分25秒
+24945 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年03月29日 13时39分25秒
+25025 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年03月29日 13时39分25秒
+25026 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,SQLLOG]] 2017年03月29日 13时39分25秒
+25027 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年03月29日 13时39分25秒
+25073 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年03月29日 13时39分25秒
+25173 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年03月29日 13时39分25秒
+25173 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[27,THREADTASK]] 2017年03月29日 13时39分25秒
+25173 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年03月29日 13时39分25秒
+25174 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年03月29日 13时39分25秒
+25174 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11102] 2017年03月29日 13时39分25秒
+25174 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11102] 2017年03月29日 13时39分25秒
+25175 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年03月29日 13时39分25秒
+25175 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,GMNET]] 2017年03月29日 13时39分25秒
+25175 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年03月29日 13时39分25秒
+25176 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年03月29日 13时39分25秒
+25176 2017-03-29 13:39:25 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年03月29日 13时39分25秒
+26176 2017-03-29 13:39:26 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年03月29日 13时39分26秒
+0 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+48 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+449 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+489 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+516 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+534 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+536 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+587 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+622 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@11a9e7c8 [ID:0] NextRunTime[1490773567005] Run[logic.module.login.Login@3901d134] SpaceTime[200]]
+625 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+728 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+730 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+731 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+731 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+732 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+733 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+733 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+733 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+734 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+736 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+738 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+738 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+741 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+742 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+742 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+747 2017-03-29 15:46:06 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@1dde4cb2 [ID:1] NextRunTime[1490773567929] Run[core.ex.GatherInfo@7714e963] SpaceTime[1000]]
+3644 2017-03-29 15:46:09 [GlobalLog] SYSTEM_INFO #打开端口[1102]成功
+3645 2017-03-29 15:46:09 [GlobalLog] SYSTEM_INFO #打开端口[11102]成功
+3820 2017-03-29 15:46:10 [GlobalLog] SYSTEM_INFO #正在打开端口[1102]
+3820 2017-03-29 15:46:10 [GlobalLog] SYSTEM_INFO #正在打开端口[11102]
+11084 2017-03-29 15:46:17 [GlobalLog] SYSTEM_INFO #服务器正准备关闭,请稍候
+11085 2017-03-29 15:46:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Start] 2017年03月29日 15时46分17秒
+11086 2017-03-29 15:46:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:1102] 2017年03月29日 15时46分17秒
+11088 2017-03-29 15:46:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[StopUserEntry::Finish] 2017年03月29日 15时46分17秒
+11093 2017-03-29 15:46:17 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:1102] 2017年03月29日 15时46分17秒
+11094 2017-03-29 15:46:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:NET]] 2017年03月29日 15时46分17秒
+11095 2017-03-29 15:46:17 [GlobalLog] SYSTEM_INFO #线程正常停止[[22,NET]] 2017年03月29日 15时46分17秒
+13088 2017-03-29 15:46:19 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Start] 2017年03月29日 15时46分19秒
+13089 2017-03-29 15:46:19 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[core.detail.impl.mgr.UserMgrImpl@66311a02 UserStore[0] TempUserStore[0] QueueByUseUser[0] DisUser[0]] 2017年03月29日 15时46分19秒
+13090 2017-03-29 15:46:19 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveAllUserData::Finish] 2017年03月29日 15时46分19秒
+13091 2017-03-29 15:46:19 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Start] 2017年03月29日 15时46分19秒
+13093 2017-03-29 15:46:19 [GlobalLog] SYSTEM_INFO #保存所有的用户数据[SaveOtherData::Finish] 2017年03月29日 15时46分19秒
+14094 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #开始停止线程[LogicMgr] 2017年03月29日 15时46分20秒
+14095 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:LOGIC]] 2017年03月29日 15时46分20秒
+14095 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[23,LOGIC]] 2017年03月29日 15时46分20秒
+14096 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[LogicMgr正常退出]] 2017年03月29日 15时46分20秒
+14096 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLMgr] 2017年03月29日 15时46分20秒
+14098 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQL]] 2017年03月29日 15时46分20秒
+14098 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[24,SQL]] 2017年03月29日 15时46分20秒
+14099 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLMgr正常退出]] 2017年03月29日 15时46分20秒
+14099 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #开始停止线程[SQLLogMgr] 2017年03月29日 15时46分20秒
+14269 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:SQLLOG]] 2017年03月29日 15时46分20秒
+14270 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[26,SQLLOG]] 2017年03月29日 15时46分20秒
+14271 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[SQLLogMgr正常退出]] 2017年03月29日 15时46分20秒
+14276 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #开始停止线程[ThreadTask] 2017年03月29日 15时46分20秒
+14376 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:THREADTASK]] 2017年03月29日 15时46分20秒
+14376 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[27,THREADTASK]] 2017年03月29日 15时46分20秒
+14376 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[ThreadTask正常退出]] 2017年03月29日 15时46分20秒
+14377 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #开始停止线程[GMNetMgr] 2017年03月29日 15时46分20秒
+14377 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Start:11102] 2017年03月29日 15时46分20秒
+14378 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #停止用户的入口[ListenNioBase::Finish:11102] 2017年03月29日 15时46分20秒
+14378 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:GMNET]] 2017年03月29日 15时46分20秒
+14378 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[25,GMNET]] 2017年03月29日 15时46分20秒
+14378 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[GMNetMgr正常退出]] 2017年03月29日 15时46分20秒
+14379 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[StartRemove:MAIN]] 2017年03月29日 15时46分20秒
+14379 2017-03-29 15:46:20 [GlobalLog] SYSTEM_INFO #线程正常停止[[1,MAIN]] 2017年03月29日 15时46分20秒
+15380 2017-03-29 15:46:21 [GlobalLog] SYSTEM_INFO #服务器执行完清理工作,GameOver:2017年03月29日 15时46分21秒
+0 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/RootConfig.xls]
+3 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #开始连接数据库[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+189 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #数据库连接成功[jdbc:mysql://192.168.2.254:3306/bobysay?rewriteBatchedStatements=true&characterEncoding=utf8]
+227 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/CommonConfig.xls]
+256 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/ServerCommonConfig.xls]
+284 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/PlayerInitIni.xls]
+286 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #读取配置文件:[data/config/MaskWordData.xls]
+329 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #读取配置文件完成:[data/config/MaskWordData.xls]
+342 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加一个定时器[0][core.detail.impl.mgr.timer.TickEvent@79698539 [ID:0] NextRunTime[1490775948132] Run[logic.module.login.Login@73f792cf] SpaceTime[200]]
+346 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+385 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,0][Login,Enter]
+387 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,2][Login,Register]
+389 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,1][Login,Create]
+390 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+392 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #开始注册模块[logic.module.login.Login]
+394 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,62][Login,SQLLog]
+395 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,61][Login,Log]
+396 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,65][Login,Binary]
+397 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,64][Login,CreateWebRole]
+398 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,57][Login,Echo]
+400 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,55][Login,EchoReceive]
+402 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,56][Login,EchoSend]
+405 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,63][Login,LoadByUserName]
+407 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #添加[0,58][Login,RunEmptySQL]
+409 2017-03-29 16:25:47 [GlobalLog] SYSTEM_INFO #完成注册[logic.module.login.Login]
+421 2017-03-29 16:25:48 [GlobalLog] SYSTEM_INFO #添加一个定时器[1][core.detail.impl.mgr.timer.TickEvent@271053e1 [ID:1] NextRunTime[1490775949011] Run[core.ex.GatherInfo@589838eb] SpaceTime[1000]]
+859 2017-03-29 16:25:48 [GlobalLog] SYSTEM_INFO #打开端口[1102]成功
+860 2017-03-29 16:25:48 [GlobalLog] SYSTEM_INFO #打开端口[11102]成功
+876 2017-03-29 16:25:48 [GlobalLog] SYSTEM_INFO #正在打开端口[11102]
+876 2017-03-29 16:25:48 [GlobalLog] SYSTEM_INFO #正在打开端口[1102]
