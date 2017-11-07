@@ -42,7 +42,6 @@ public class GlobalLoader implements DBLoader {
 		for(int i = 0; i < codes.length; ++ i){
 			m_codes.add(codes[i]);
 		}
-		
 	}
 
 	@Override
